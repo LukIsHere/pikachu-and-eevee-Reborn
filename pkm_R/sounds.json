@@ -1,0 +1,459 @@
+//bridge-file-version: #10
+{
+	"individual_event_sounds": {
+		"events": {}
+	},
+	"block_sounds": {},
+	"entity_sounds": {
+		"entities": {
+			"pkm:bulbassauro": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"attack": "mob.fox.bite",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt",
+					"mad": "mob.fox.aggro",
+					"screech": {
+						"sound": "mob.fox.screech",
+						"volume": 2
+					},
+					"sleep": "mob.fox.sleep",
+					"sniff": "mob.fox.sniff",
+					"spit": "mob.fox.spit"
+				},
+				"pitch": [
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"pkm:charmander": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"attack": "mob.fox.bite",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt",
+					"mad": "mob.fox.aggro",
+					"screech": {
+						"sound": "mob.fox.screech",
+						"volume": 2
+					},
+					"sleep": "mob.fox.sleep",
+					"sniff": "mob.fox.sniff",
+					"spit": "mob.fox.spit"
+				},
+				"pitch": [
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"pkm:charmeleon": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"attack": "mob.fox.bite",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt",
+					"mad": "mob.fox.aggro",
+					"screech": {
+						"sound": "mob.fox.screech",
+						"volume": 2
+					},
+					"sleep": "mob.fox.sleep",
+					"sniff": "mob.fox.sniff",
+					"spit": "mob.fox.spit"
+				},
+				"pitch": [
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"pkm:charizard": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"attack": "mob.fox.bite",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt",
+					"mad": "mob.fox.aggro",
+					"screech": {
+						"sound": "mob.fox.screech",
+						"volume": 2
+					},
+					"sleep": "mob.fox.sleep",
+					"sniff": "mob.fox.sniff",
+					"spit": "mob.fox.spit"
+				},
+				"pitch": [
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"pkm:squirtle": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"attack": "mob.fox.bite",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt",
+					"mad": "mob.fox.aggro",
+					"screech": {
+						"sound": "mob.fox.screech",
+						"volume": 2
+					},
+					"sleep": "mob.fox.sleep",
+					"sniff": "mob.fox.sniff",
+					"spit": "mob.fox.spit"
+				},
+				"pitch": [
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"pkm:pikachu": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"attack": "mob.fox.bite",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt",
+					"mad": "mob.fox.aggro",
+					"screech": {
+						"sound": "mob.fox.screech",
+						"volume": 2
+					},
+					"sleep": "mob.fox.sleep",
+					"sniff": "mob.fox.sniff",
+					"spit": "mob.fox.spit"
+				},
+				"pitch": [
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"pkm:raichu": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"attack": "mob.fox.bite",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt",
+					"mad": "mob.fox.aggro",
+					"screech": {
+						"sound": "mob.fox.screech",
+						"volume": 2
+					},
+					"sleep": "mob.fox.sleep",
+					"sniff": "mob.fox.sniff",
+					"spit": "mob.fox.spit"
+				},
+				"pitch": [
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"pkm:raichu_alola": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"attack": "mob.fox.bite",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt",
+					"mad": "mob.fox.aggro",
+					"screech": {
+						"sound": "mob.fox.screech",
+						"volume": 2
+					},
+					"sleep": "mob.fox.sleep",
+					"sniff": "mob.fox.sniff",
+					"spit": "mob.fox.spit"
+				},
+				"pitch": [
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"pkm:clefairy": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"attack": "mob.fox.bite",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt",
+					"mad": "mob.fox.aggro",
+					"screech": {
+						"sound": "mob.fox.screech",
+						"volume": 2
+					},
+					"sleep": "mob.fox.sleep",
+					"sniff": "mob.fox.sniff",
+					"spit": "mob.fox.spit"
+				},
+				"pitch": [
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"pkm:clefable": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"attack": "mob.fox.bite",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt",
+					"mad": "mob.fox.aggro",
+					"screech": {
+						"sound": "mob.fox.screech",
+						"volume": 2
+					},
+					"sleep": "mob.fox.sleep",
+					"sniff": "mob.fox.sniff",
+					"spit": "mob.fox.spit"
+				},
+				"pitch": [
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"pkm:eevee": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"attack": "mob.fox.bite",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt",
+					"mad": "mob.fox.aggro",
+					"screech": {
+						"sound": "mob.fox.screech",
+						"volume": 2
+					},
+					"sleep": "mob.fox.sleep",
+					"sniff": "mob.fox.sniff",
+					"spit": "mob.fox.spit"
+				},
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"pkm:vaporeon": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"attack": "mob.fox.bite",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt",
+					"mad": "mob.fox.aggro",
+					"screech": {
+						"sound": "mob.fox.screech",
+						"volume": 2
+					},
+					"sleep": "mob.fox.sleep",
+					"sniff": "mob.fox.sniff",
+					"spit": "mob.fox.spit"
+				},
+				"pitch": [
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"pkm:jolteon": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"attack": "mob.fox.bite",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt",
+					"mad": "mob.fox.aggro",
+					"screech": {
+						"sound": "mob.fox.screech",
+						"volume": 2
+					},
+					"sleep": "mob.fox.sleep",
+					"sniff": "mob.fox.sniff",
+					"spit": "mob.fox.spit"
+				},
+				"pitch": [
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"pkm:flareon": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"attack": "mob.fox.bite",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt",
+					"mad": "mob.fox.aggro",
+					"screech": {
+						"sound": "mob.fox.screech",
+						"volume": 2
+					},
+					"sleep": "mob.fox.sleep",
+					"sniff": "mob.fox.sniff",
+					"spit": "mob.fox.spit"
+				},
+				"pitch": [
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"pkm:espeon": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"attack": "mob.fox.bite",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt",
+					"mad": "mob.fox.aggro",
+					"screech": {
+						"sound": "mob.fox.screech",
+						"volume": 2
+					},
+					"sleep": "mob.fox.sleep",
+					"sniff": "mob.fox.sniff",
+					"spit": "mob.fox.spit"
+				},
+				"pitch": [
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2
+				],
+				"volume": 1
+			},
+			"pkm:umbreon": {
+				"events": {
+					"ambient": "mob.fox.ambient",
+					"attack": "mob.fox.bite",
+					"death": "mob.fox.death",
+					"eat": "mob.fox.eat",
+					"hurt": "mob.fox.hurt",
+					"mad": "mob.fox.aggro",
+					"screech": {
+						"sound": "mob.fox.screech",
+						"volume": 2
+					},
+					"sleep": "mob.fox.sleep",
+					"sniff": "mob.fox.sniff",
+					"spit": "mob.fox.spit"
+				},
+				"pitch": [
+					0.8,
+					1.2,
+					0.8,
+					1.2,
+					0.8,
+					1.2
+				],
+				"volume": 1
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+//bridge-file-version: #9
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"pkb": {
+			"textures": "textures/items/pokeball"
+		},
+		"redstone_ingot": {
+			"textures": "textures/items/redstone_ingot"
+		},
+		"shiny_charm": {
+			"textures": "textures/items/shiny_charm"
+		},
+		"water_stone": {
+			"textures": "textures/items/water_stone"
+		},
+		"fire_stone": {
+			"textures": "textures/items/fire_stone"
+		},
+		"rare_candy": {
+			"textures": "textures/items/rare_candy"
+		},
+		"thunder_stone": {
+			"textures": "textures/items/thunder_stone"
+		},
+		"moon_stone": {
+			"textures": "textures/items/moon_stone"
+		}
+	}
+}

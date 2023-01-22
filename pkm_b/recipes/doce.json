@@ -1,0 +1,30 @@
+//bridge-file-version: #5
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "pkm:trovão"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"QQQ",
+			"QWQ",
+			"QQQ"
+		],
+		"key": {
+			"Q": {
+				"item": "minecraft:sugar"
+			},
+			"W": {
+				"item": "minecraft:diamond"
+			}
+		},
+		"result": [
+			{
+				"item": "pkm:rare_candy"
+			}
+		]
+	}
+}

@@ -1,0 +1,1335 @@
+{
+	"entity": {
+		"BP/entities/eeveeV2.json/eeveetest.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:eevee"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			]
+		},
+		"BP/entities/player.json": {
+			"custom_components": []
+		},
+		"BP/entities/025_pikachu.json/pikachuV2.json": {
+			"events": [
+				"minecraft:become_angry",
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:on_calm",
+				"pkm:evolve",
+				"pkm:on_shiny"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:clefairy"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			]
+		},
+		"BP/entities/026_raichu.json/raichu.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:become_angry",
+				"minecraft:on_calm",
+				"minecraft:entity_transformed",
+				"pkm:on_shiny"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:raichu"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			]
+		},
+		"BP/entities/035_clefairy.json/clefairy.json": {
+			"events": [
+				"minecraft:become_angry",
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:on_calm",
+				"pkm:evolve",
+				"pkm:on_shiny"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:clefairy"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			]
+		},
+		"BP/entities/133_eevee.json/eeveeV2.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:become_angry",
+				"minecraft:on_calm",
+				"pkm:on_shiny",
+				"pkm:evolve_jolt",
+				"pkm:evolve_flare",
+				"pkm:evolve_vapor",
+				"pkm:evolve_esp",
+				"pkm:evolve_umbra"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:eevee"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			]
+		},
+		"BP/entities/134_vaporeon.json/vaporeon.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:become_angry",
+				"minecraft:on_calm",
+				"minecraft:entity_transformed",
+				"pkm:on_shiny"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:vaporeon"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			]
+		},
+		"BP/entities/135_jolteon.json/jolteon.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:on_calm",
+				"minecraft:become_angry",
+				"minecraft:entity_transformed",
+				"pkm:on_shiny"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:jolteon"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			]
+		},
+		"BP/entities/136_flareon.json/flareon.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:on_calm",
+				"minecraft:become_angry",
+				"minecraft:entity_transformed",
+				"pkm:on_shiny"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:espeon"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			]
+		},
+		"BP/entities/196_espeon.json/espeon.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:on_calm",
+				"minecraft:become_angry",
+				"minecraft:entity_transformed",
+				"pkm:on_shiny"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:espeon"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			]
+		},
+		"BP/entities/197_umbreon.json/umbreon.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:on_calm",
+				"minecraft:become_angry",
+				"minecraft:entity_transformed",
+				"pkm:on_shiny"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:espeon"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			]
+		},
+		"BP/entities/036_clefable.json": {
+			"events": [
+				"minecraft:become_angry",
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:on_calm",
+				"pkm:on_shiny",
+				"minecraft:entity_transformed"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:clefable"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			]
+		},
+		"BP/entities/035_clefairy.json": {
+			"events": [
+				"minecraft:become_angry",
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:on_calm",
+				"pkm:evolve",
+				"pkm:on_shiny"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:clefairy"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			]
+		},
+		"BP/entities/026_raichu_alola.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:become_angry",
+				"minecraft:on_calm",
+				"minecraft:entity_transformed",
+				"pkm:on_shiny"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:raichu_alola"
+			],
+			"animation_references": [
+				"pkm_fly"
+			],
+			"families": [
+				"pokemon",
+				"mob"
+			],
+			"custom_commands": []
+		},
+		"BP/entities/196_espeon.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:on_calm",
+				"minecraft:become_angry",
+				"minecraft:entity_transformed",
+				"pkm:on_shiny"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:espeon"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			]
+		},
+		"BP/entities/136_flareon.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:on_calm",
+				"minecraft:become_angry",
+				"minecraft:entity_transformed",
+				"pkm:on_shiny"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:flareon"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			]
+		},
+		"BP/entities/135_jolteon.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:on_calm",
+				"minecraft:become_angry",
+				"minecraft:entity_transformed",
+				"pkm:on_shiny"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:jolteon"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			]
+		},
+		"BP/entities/025_pikachu.json": {
+			"events": [
+				"minecraft:become_angry",
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:on_calm",
+				"pkm:on_shiny",
+				"pkm:evolve_kanto",
+				"pkm:evolve_alola"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:pikachu"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			]
+		},
+		"BP/entities/001_bulbassauro.json": {
+			"events": [
+				"minecraft:become_angry",
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:on_calm",
+				"pkm:on_shiny",
+				"pkm:evolve_ivysauro"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:bulbassauro"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			]
+		},
+		"BP/entities/007_squirtle.json": {
+			"events": [
+				"minecraft:become_angry",
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:on_calm",
+				"pkm:on_shiny",
+				"pkm:evolve_warturtle"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:squirtle"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			]
+		},
+		"BP/entities/004_charmander.json": {
+			"events": [
+				"minecraft:become_angry",
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:on_calm",
+				"pkm:on_shiny"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:charizard"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			],
+			"custom_commands": []
+		},
+		"BP/entities/005_charmeleon.json": {
+			"events": [
+				"minecraft:become_angry",
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:on_calm",
+				"pkm:on_shiny",
+				"pkm:evolve_charizard",
+				"minecraft:entity_transformed"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:charmeleon"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			],
+			"custom_commands": []
+		},
+		"BP/entities/006_charizard.json": {
+			"events": [
+				"minecraft:become_angry",
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:on_calm",
+				"pkm:on_shiny",
+				"pkm:fly",
+				"pkm:ground",
+				"minecraft:entity_transformed"
+			],
+			"custom_components": [],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:charizard"
+			],
+			"animation_references": [
+				"pkm_fly",
+				"charizard_fly",
+				"remove_fly"
+			],
+			"families": [
+				"pokemon",
+				"mob"
+			],
+			"custom_commands": []
+		},
+		"BP/entities/026_raichu_kanto.json": {
+			"events": [
+				"minecraft:entity_spawned",
+				"minecraft:entity_born",
+				"minecraft:ageable_grow_up",
+				"minecraft:ambient_sleep",
+				"minecraft:on_tame",
+				"minecraft:become_angry",
+				"minecraft:on_calm",
+				"minecraft:entity_transformed",
+				"pkm:on_shiny"
+			],
+			"bridge_core_tags": [],
+			"identifiers": [
+				"pkm:raichu"
+			],
+			"animation_references": [],
+			"families": [
+				"pokemon",
+				"mob"
+			],
+			"custom_commands": [],
+			"custom_components": []
+		}
+	},
+	"client_entity": {
+		"RP/entity/035_clefairy.entity.json/clefairy.entity.json": {
+			"identifiers": [
+				"pkm:clefairy"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.clefairy"
+			]
+		},
+		"RP/entity/133_eevee.entity.json/eevee.entity.json": {
+			"identifiers": [
+				"pkm:vaporeon"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.vaporeon"
+			]
+		},
+		"RP/entity/196_espeon.entity.json/espeon.entity.json": {
+			"identifiers": [
+				"pkm:umbreon"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default",
+				"rings"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.umbreon"
+			]
+		},
+		"RP/entity/137_flareon.entity.json/flareon.entity.json": {
+			"identifiers": [
+				"pkm:umbreon"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default",
+				"rings"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.umbreon"
+			]
+		},
+		"RP/entity/135_jolteon.entity.json/jolteon.entity.json": {
+			"identifiers": [
+				"pkm:vaporeon"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.vaporeon"
+			]
+		},
+		"RP/entity/025_pikachu.entity.json/pikachu.entity.json": {
+			"identifiers": [
+				"pkm:clefairy"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.clefairy"
+			]
+		},
+		"RP/entity/026_raichu.entity.json/raichu.entity.json": {
+			"identifiers": [
+				"pkm:raichu"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.raichu"
+			]
+		},
+		"RP/entity/197_umbreon.entity.json/umbreon.entity.json": {
+			"identifiers": [
+				"pkm:umbreon"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default",
+				"rings"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.umbreon"
+			]
+		},
+		"RP/entity/134_vaporeon.entity.json/vaporeon.entity.json": {
+			"identifiers": [
+				"pkm:vaporeon"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.vaporeon"
+			]
+		},
+		"RP/entity/036_clefable.entity.json": {
+			"identifiers": [
+				"pkm:clefable"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.clefable"
+			]
+		},
+		"RP/entity/026_raichu_alola.entity.json": {
+			"identifiers": [
+				"pkm:raichu_alola"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.raichu_alola"
+			]
+		},
+		"RP/entity/attack_eletric_ball.json/unnamed.json": {
+			"identifiers": [
+				"pkm:eletric_ball"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"flying"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"default"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.item_sprite"
+			]
+		},
+		"RP/entity/001_bulbassauro.entity.json": {
+			"identifiers": [
+				"pkm:bulbassauro"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.bulbassauro"
+			]
+		},
+		"RP/entity/136_flareon.entity.json": {
+			"identifiers": [
+				"pkm:flareon"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.flareon"
+			]
+		},
+		"RP/entity/135_jolteon.entity.json": {
+			"identifiers": [
+				"pkm:jolteon"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.jolteon"
+			]
+		},
+		"RP/entity/197_umbreon.entity.json": {
+			"identifiers": [
+				"pkm:umbreon"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default",
+				"rings"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.umbreon"
+			]
+		},
+		"RP/entity/196_espeon.entity.json": {
+			"identifiers": [
+				"pkm:espeon"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.espeon"
+			]
+		},
+		"RP/entity/007_squirtle.entity.json": {
+			"identifiers": [
+				"pkm:squirtle"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"geometry.squirtle"
+			]
+		},
+		"RP/entity/004_charmander.entity.json": {
+			"identifiers": [
+				"pkm:charizard"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/005_charmeleon.entity.json": {
+			"identifiers": [
+				"pkm:charmeleon"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		},
+		"RP/entity/006_charizard.entity.json": {
+			"identifiers": [
+				"pkm:charizard"
+			],
+			"particle_references": [],
+			"animation_references": [
+				"walk",
+				"look_at_target",
+				"baby_transform",
+				"crouch",
+				"sleep",
+				"setup",
+				"sit",
+				"wiggle",
+				"stuck",
+				"pounce",
+				"flying",
+				"move"
+			],
+			"sound_references": [],
+			"texture_references": [
+				"red",
+				"arctic"
+			],
+			"material_references": [
+				"default"
+			],
+			"geometry_references": [
+				"default"
+			],
+			"geometry_identifiers": [
+				"default"
+			]
+		}
+	},
+	"item": {
+		"BP/items/pokebola.json": {
+			"identifiers": [
+				"pkm:pokebola"
+			]
+		},
+		"BP/items/redstone_ingot.json": {
+			"identifiers": [
+				"amalgama:redstone_ingot"
+			]
+		},
+		"BP/items/thunder_stone.json": {
+			"identifiers": [
+				"pkm:water_stone"
+			]
+		},
+		"BP/items/shiny_charm.json": {
+			"identifiers": [
+				"pkm:shiny_charm"
+			]
+		},
+		"BP/items/fire_stone.json": {
+			"identifiers": [
+				"pkm:rare_candy"
+			]
+		},
+		"BP/items/water_stone.json": {
+			"identifiers": [
+				"pkm:moon_stone"
+			]
+		},
+		"BP/items/rare_candy.json": {
+			"identifiers": [
+				"pkm:rare_candy"
+			]
+		},
+		"BP/items/moon_stone.json": {
+			"identifiers": [
+				"pkm:moon_stone"
+			]
+		}
+	},
+	"render_controller": {
+		"RP/render_controllers/umbreon_rings.json": {
+			"ids": [
+				"controller.render.umbra"
+			]
+		}
+	},
+	"rp_animation": {
+		"RP/animations/026_raichu_alola.animation.json": {
+			"ids": [
+				"animation.raichu_a.setup",
+				"animation.raichu_a.walk",
+				"animation.raichu_a.sit",
+				"animation.raichu_a.crouch",
+				"animation.raichu.look_at_target"
+			]
+		}
+	},
+	"function": {
+		"ffdedc24_c4ca_4d00_a8ac_030c8b5d65d6": {},
+		"391ad32c_7b4b_4c70_b7b3_b472a9d2f651": {},
+		"3cc0f81c_931d_4331_8f2e_8279ba6af240": {},
+		"b34b0f63_ad3c_4edd_a9b4_c712fe65e154": {},
+		"BP/functions/charizardFlyMount.mcfunction": {
+			"custom_commands": []
+		}
+	},
+	"animation_controller": {
+		"BP/animation_controllers/pkm_fly.json": {
+			"ids": [
+				"controller.animation.pkm_fly"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/remove_fly_effect.json": {
+			"ids": [
+				"controller.animation.remove_fly_effect"
+			],
+			"custom_commands": []
+		},
+		"BP/animation_controllers/charizard_fly.json": {
+			"ids": [
+				"controller.animation.charizard_fly"
+			],
+			"custom_commands": []
+		}
+	},
+	"rp_animation_controller": {
+		"RP/animation_controllers/pkm_flies.json": {
+			"ids": [
+				"controller.animation.pkm_flies.move"
+			]
+		}
+	}
+}

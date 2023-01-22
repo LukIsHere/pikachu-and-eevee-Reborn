@@ -1,0 +1,47 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pkm:jolteon",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"red": "textures/entity/eevee/jolteon",
+				"arctic": "textures/entity/eevee/jolteon_shiny"
+			},
+			"geometry": {
+				"default": "geometry.jolteon"
+			},
+			"animations": {
+				"walk": "animation.jolt.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.jolt.baby_transform",
+				"crouch": "animation.jolt.crouch",
+				"sleep": "animation.jolt.sleep",
+				"setup": "animation.jolt.setup",
+				"sit": "animation.jolt.sit",
+				"wiggle": "animation.jolt.wiggle",
+				"stuck": "animation.jolt.stuck",
+				"pounce": "animation.jolt.pounce",
+				"move": "controller.animation.fox.move"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"move"
+				]
+			},
+			"render_controllers": [
+				"controller.render.fox"
+			],
+			"spawn_egg": {
+				"texture": "pkb"
+			}
+		}
+	}
+}

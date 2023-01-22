@@ -1,0 +1,48 @@
+//bridge-file-version: #33
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pkm:charizard",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"red": "textures/entity/charmander/charizard",
+				"arctic": "textures/entity/charmander/charizard_shiny_2"
+			},
+			"geometry": {
+				"default": "geometry.charizard"
+			},
+			"animations": {
+				"walk": "animation.charizard.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.clefairy.baby_transform",
+				"crouch": "animation.charizard.crouch",
+				"sleep": "animation.pika.sleep",
+				"setup": "animation.charizard.setup",
+				"sit": "animation.charizard.sit",
+				"wiggle": "animation.charizard.wiggle",
+				"stuck": "animation.clefairy.stuck",
+				"pounce": "animation.clefairy.pounce",
+				"flying": "animation.charizard.flying",
+				"move": "controller.animation.pkm_flies.move"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"move"
+				]
+			},
+			"render_controllers": [
+				"controller.render.fox"
+			],
+			"spawn_egg": {
+				"texture": "pkb"
+			}
+		}
+	}
+}

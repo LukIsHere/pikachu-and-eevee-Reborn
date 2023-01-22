@@ -1,0 +1,37 @@
+//bridge-file-version: #5
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "pkm:pokeball"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"XXX",
+			"YEY",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:iron_ingot"
+			},
+			"E": {
+				"item": "minecraft:ender_pearl"
+			},
+			"X": {
+				"item": "amalgama:redstone_ingot"
+			},
+			"Y": {
+				"item": "minecraft:iron_nugget"
+			}
+		},
+		"result": [
+			{
+				"item": "pkm:pokebola",
+				"count": 6
+			}
+		]
+	}
+}

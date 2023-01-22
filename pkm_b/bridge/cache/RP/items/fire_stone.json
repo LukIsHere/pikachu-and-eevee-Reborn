@@ -1,0 +1,69 @@
+{
+	"file_path": "C:\\Users\\eduar\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Pocket Monsters R\\items\\fire_stone.json",
+	"file_type": "client_item",
+	"format_version": 1,
+	"file_uuid": "90db1f6e_3110_47fb_82cc_44104f90c1d8",
+	"file_version": 7,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.1,
+					"minecraft:item": {
+						"description": {
+							"identifier": "pkm:fire_stone",
+							"category": "Items"
+						},
+						"components": {
+							"minecraft:icon": "fire_stone",
+							"minecraft:render_offsets": "apple"
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "pkm:fire_stone",
+								"category": "Items"
+							},
+							"components": {
+								"minecraft:icon": "fire_stone",
+								"minecraft:render_offsets": "apple"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "pkm:fire_stone",
+							"category": "Items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "pkm:fire_stone",
+								"category": "Items"
+							},
+							"components": {
+								"minecraft:icon": "fire_stone",
+								"minecraft:render_offsets": "apple"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:icon": "fire_stone",
+							"minecraft:render_offsets": "apple"
+						}
+					}
+				]
+			}
+		]
+	}
+}

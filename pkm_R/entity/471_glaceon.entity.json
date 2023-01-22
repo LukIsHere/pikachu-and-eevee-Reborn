@@ -1,0 +1,48 @@
+//bridge-file-version: #22
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pkm:glaceon",
+			"materials": {
+				"default": "spider",
+				"rings": "spider_invisible"
+			},
+			"textures": {
+				"red": "textures/entity/eevee/glaceon",
+				"arctic": "textures/entity/eevee/glaceon_shiny"
+			},
+			"geometry": {
+				"default": "geometry.glaceon"
+			},
+			"animations": {
+				"walk": "animation.espeon.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.espeon.baby_transform",
+				"crouch": "animation.glaceon.crouch",
+				"sleep": "animation.espeon.sleep",
+				"setup": "animation.espeon.setup",
+				"sit": "animation.glaceon.sit",
+				"wiggle": "animation.espeon.wiggle",
+				"stuck": "animation.espeon.stuck",
+				"pounce": "animation.espeon.pounce",
+				"move": "controller.animation.fox.move"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"move"
+				]
+			},
+			"render_controllers": [
+				"controller.render.fox"
+			],
+			"spawn_egg": {
+				"texture": "pkb"
+			}
+		}
+	}
+}

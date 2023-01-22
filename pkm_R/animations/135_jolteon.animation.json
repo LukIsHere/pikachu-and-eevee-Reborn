@@ -1,0 +1,198 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.jolt.baby_transform": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"position": [0, 0, 0],
+					"scale": "query.is_baby ? 1.3 : 1.0"
+				}
+			}
+		},
+		"animation.jolt.crouch": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, 0],
+					"position": [0, -1.8, 0]
+				},
+				"head": {
+					"rotation": [0, 0, 0],
+					"position": [0, -0.8, 0]
+				},
+				"leg0": {
+					"rotation": [0, 0, 0],
+					"position": [0, 1.6, 0]
+				},
+				"leg1": {
+					"rotation": [0, 0, 0],
+					"position": [0, 1.6, 0]
+				},
+				"leg2": {
+					"rotation": [0, 0, 0],
+					"position": [0, 1.6, 0]
+				},
+				"leg3": {
+					"rotation": [0, 0, 0],
+					"position": [0, 1.6, 0]
+				},
+				"ear": {
+					"rotation": [-30, 0, 0]
+				},
+				"ear2": {
+					"rotation": [-30, 0, 0]
+				}
+			}
+		},
+		"animation.jolt.pounce": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["query.vertical_speed * -7.0", 0, 0],
+					"position": [0, 0, 0]
+				},
+				"head": {
+					"rotation": ["query.vertical_speed * -7.0", 0, 0],
+					"position": [0, 0, 0]
+				}
+			}
+		},
+		"animation.jolt.setup": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["-this", 0, 0]
+				}
+			}
+		},
+		"animation.jolt.sit": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["-this", 0, 0]
+				},
+				"body2": {
+					"rotation": [-55, 0, 0]
+				},
+				"mane": {
+					"rotation": [50, 0, 0],
+					"position": [0, -1, -3]
+				},
+				"head": {
+					"position": [0, 2, 2]
+				},
+				"leg0": {
+					"rotation": [-90, 0, 0],
+					"position": [0, -6, -2]
+				},
+				"leg1": {
+					"rotation": [-90, 0, 0],
+					"position": [0, -6, -2]
+				},
+				"leg2": {
+					"rotation": [-20, 0, 0],
+					"position": [0, 3, -1],
+					"scale": [1, 1.4, 1]
+				},
+				"leg3": {
+					"rotation": [-20, 0, 0],
+					"position": [0, 3, -1],
+					"scale": [1, 1.4, 1]
+				}
+			}
+		},
+		"animation.jolt.sleep": {
+			"loop": true,
+			"animation_length": 2.12,
+			"bones": {
+				"body": {
+					"rotation": [0, 0, -90],
+					"position": [0, -4.8, 0]
+				},
+				"head": {
+					"rotation": [0, -15, "math.cos(query.anim_time * 160.0) + 90 -this"],
+					"position": [-3.2, -3.4, -2.5]
+				},
+				"mane": {
+					"rotation": [70, 0, 0],
+					"position": [0, -4, -4]
+				},
+				"ear": {
+					"rotation": [-25, 0, 0]
+				},
+				"ear2": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		},
+		"animation.jolt.stuck": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [60, 0, 0],
+					"position": [0, -0.3, 0]
+				},
+				"ear": {
+					"rotation": [-30, 0, 0]
+				},
+				"ear2": {
+					"rotation": [-30, 0, 0]
+				}
+			}
+		},
+		"animation.jolt.wiggle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, "math.cos(query.life_time * 20.0 * 53.7) * 5.0 -this", 0],
+					"position": [0, -1.8, 0]
+				},
+				"head": {
+					"rotation": ["math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)"],
+					"position": [0, -0.8, 0]
+				},
+				"leg0": {
+					"rotation": [0, 0, 0],
+					"position": [0, 1.6, 0]
+				},
+				"leg1": {
+					"rotation": [0, 0, 0],
+					"position": [0, 1.6, 0]
+				},
+				"leg2": {
+					"rotation": [0, 0, 0],
+					"position": [0, 1.6, 0]
+				},
+				"leg3": {
+					"rotation": [0, 0, 0],
+					"position": [0, 1.6, 0]
+				}
+			}
+		},
+		"animation.jolt.walk": {
+			"loop": true,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"leg0": {
+					"rotation": ["math.cos(query.anim_time * 38.17) *  80.0", 0, 0]
+				},
+				"leg1": {
+					"rotation": ["math.cos(query.anim_time * 38.17) * 80.0", 0, 0]
+				},
+				"leg2": {
+					"rotation": ["math.cos(query.anim_time * 38.17) * -80.0", 0, 0]
+				},
+				"leg3": {
+					"rotation": ["math.cos(query.anim_time * 38.17) *  -80.0", 0, 0]
+				},
+				"body2": {
+					"rotation": ["math.cos(query.anim_time * 38.17) * -20.0", 0, 0]
+				},
+				"head": {
+					"position": [0, "math.cos(query.anim_time * 38.17) * 2.0", "math.cos(query.anim_time * 38.17) * 2.0"]
+				}
+			}
+		}
+	}
+}

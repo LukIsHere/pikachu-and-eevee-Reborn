@@ -1,0 +1,47 @@
+//bridge-file-version: #14
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pkm:flareon",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"red": "textures/entity/eevee/flareon",
+				"arctic": "textures/entity/eevee/flareon_shiny"
+			},
+			"geometry": {
+				"default": "geometry.flareon"
+			},
+			"animations": {
+				"walk": "animation.flare.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.flare.baby_transform",
+				"crouch": "animation.flare.crouch",
+				"sleep": "animation.flare.sleep",
+				"setup": "animation.flare.setup",
+				"sit": "animation.flare.sit",
+				"wiggle": "animation.flare.wiggle",
+				"stuck": "animation.flare.stuck",
+				"pounce": "animation.flare.pounce",
+				"move": "controller.animation.fox.move"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"move"
+				]
+			},
+			"render_controllers": [
+				"controller.render.fox"
+			],
+			"spawn_egg": {
+				"texture": "pkb"
+			}
+		}
+	}
+}

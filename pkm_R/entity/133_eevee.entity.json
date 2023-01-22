@@ -1,0 +1,47 @@
+//bridge-file-version: #9
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pkm:eevee",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"red": "textures/entity/eevee/eevee",
+				"arctic": "textures/entity/eevee/eevee_shiny"
+			},
+			"geometry": {
+				"default": "geometry.eevee"
+			},
+			"animations": {
+				"walk": "animation.pika.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.eevee.baby_transform",
+				"crouch": "animation.eevee.crouch",
+				"sleep": "animation.eevee.sleep",
+				"setup": "animation.eevee.setup",
+				"sit": "animation.eevee.sit",
+				"wiggle": "animation.eevee.wiggle",
+				"stuck": "animation.eevee.stuck",
+				"pounce": "animation.eevee.pounce",
+				"move": "controller.animation.fox.move"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"move"
+				]
+			},
+			"render_controllers": [
+				"controller.render.fox"
+			],
+			"spawn_egg": {
+				"texture": "pkb"
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+//bridge-file-version: #5
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "pkm:shiny_charm",
+			"category": "Items"
+		},
+		"components": {
+			"minecraft:icon": "shiny_charm",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

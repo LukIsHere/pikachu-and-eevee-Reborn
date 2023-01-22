@@ -1,0 +1,137 @@
+{
+	"file_path": "C:\\Users\\eduar\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Pocket Monsters R\\textures\\item_texture.json",
+	"file_type": "item_texture",
+	"format_version": 1,
+	"file_uuid": "43a4a16a_6f0e_486c_ae75_d2f294dc5a8d",
+	"file_version": 9,
+	"cache_content": {
+		"children": [
+			{
+				"data": "bridgeRP",
+				"key": "resource_pack_name"
+			},
+			{
+				"data": "atlas.items",
+				"key": "texture_name"
+			},
+			{
+				"open": {
+					"resource_pack_name": "bridgeRP",
+					"texture_name": "atlas.items",
+					"texture_data": {
+						"pkb": {
+							"textures": "textures/items/pokeball"
+						},
+						"redstone_ingot": {
+							"textures": "textures/items/redstone_ingot"
+						},
+						"shiny_charm": {
+							"textures": "textures/items/shiny_charm"
+						},
+						"water_stone": {
+							"textures": "textures/items/water_stone"
+						},
+						"fire_stone": {
+							"textures": "textures/items/fire_stone"
+						},
+						"rare_candy": {
+							"textures": "textures/items/rare_candy"
+						},
+						"thunder_stone": {
+							"textures": "textures/items/thunder_stone"
+						},
+						"moon_stone": {
+							"textures": "textures/items/moon_stone"
+						}
+					}
+				},
+				"key": "texture_data",
+				"children": [
+					{
+						"key": "pkb",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/pokeball"
+						}
+					},
+					{
+						"key": "redstone_ingot",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/redstone_ingot"
+						}
+					},
+					{
+						"key": "shiny_charm",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/shiny_charm"
+						}
+					},
+					{
+						"key": "water_stone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/water_stone"
+						}
+					},
+					{
+						"key": "fire_stone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/fire_stone"
+						}
+					},
+					{
+						"key": "rare_candy",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/rare_candy"
+						}
+					},
+					{
+						"data": "textures/items/thunder_stone",
+						"key": "thunder_stone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/thunder_stone"
+						}
+					},
+					{
+						"open": {
+							"pkb": {
+								"textures": "textures/items/pokeball"
+							},
+							"redstone_ingot": {
+								"textures": "textures/items/redstone_ingot"
+							},
+							"shiny_charm": {
+								"textures": "textures/items/shiny_charm"
+							},
+							"water_stone": {
+								"textures": "textures/items/water_stone"
+							},
+							"fire_stone": {
+								"textures": "textures/items/fire_stone"
+							},
+							"rare_candy": {
+								"textures": "textures/items/rare_candy"
+							},
+							"thunder_stone": {
+								"textures": "textures/items/thunder_stone"
+							},
+							"moon_stone": {
+								"textures": "textures/items/moon_stone"
+							}
+						},
+						"key": "moon_stone",
+						"is_minified": true,
+						"children": {
+							"textures": "textures/items/moon_stone"
+						}
+					}
+				]
+			}
+		]
+	}
+}

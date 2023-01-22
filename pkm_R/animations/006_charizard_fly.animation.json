@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.charizard.flying": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["60+math.cos(query.anim_time * 216.17) * 5.0", 0, 0]
+				},
+				"tail": {
+					"rotation": ["-30+math.cos(query.anim_time * 216.17) * -10.0", 0, 0],
+					"position": [0, 0, -1]
+				},
+				"bone5": {
+					"rotation": ["-15+math.cos(query.anim_time * 216.17) * 5.0", 0, 0]
+				},
+				"bone": {
+					"rotation": ["-10+math.cos(query.anim_time * 216.17) * -10.0", 0, 0]
+				},
+				"wings": {
+					"rotation": [-30, 0, 0]
+				},
+				"wing0": {
+					"rotation": [0, -30, "-45+math.cos(query.anim_time * 216.17) * 30.0"]
+				},
+				"wing00": {
+					"rotation": [0, 0, 45]
+				},
+				"wing1": {
+					"rotation": [0, 30, "45+math.cos(query.anim_time * 216.17) * -30.0"]
+				},
+				"wing2": {
+					"rotation": [0, 0, -45]
+				},
+				"head": {
+					"rotation": [-60, 0, 0],
+					"position": [0, 0, -2]
+				}
+			}
+		}
+	}
+}

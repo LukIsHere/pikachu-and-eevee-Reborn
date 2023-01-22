@@ -1,0 +1,194 @@
+{
+	"file_path": "C:\\Users\\eduar\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Pocket Monsters B/loot_tables/entities\\shiny_evo.json",
+	"file_type": "loot_table",
+	"format_version": 1,
+	"file_uuid": "6267499b_901b_4d85_b232_9a5e9b59a98b",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"pools": [
+						{
+							"rolls": 1,
+							"entries": [
+								{
+									"type": "item",
+									"weight": 1,
+									"functions": [
+										{
+											"function": "set_count",
+											"count": {
+												"min": 1,
+												"max": 1
+											}
+										}
+									],
+									"name": "pkm:shiny_charm"
+								}
+							]
+						}
+					]
+				},
+				"key": "pools",
+				"array": [
+					{
+						"open": [
+							{
+								"rolls": 1,
+								"entries": [
+									{
+										"type": "item",
+										"weight": 1,
+										"functions": [
+											{
+												"function": "set_count",
+												"count": {
+													"min": 1,
+													"max": 1
+												}
+											}
+										],
+										"name": "pkm:shiny_charm"
+									}
+								]
+							}
+						],
+						"children": [
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											],
+											"name": "pkm:shiny_charm"
+										}
+									]
+								},
+								"data": "1",
+								"key": "rolls"
+							},
+							{
+								"open": {
+									"rolls": 1,
+									"entries": [
+										{
+											"type": "item",
+											"weight": 1,
+											"functions": [
+												{
+													"function": "set_count",
+													"count": {
+														"min": 1,
+														"max": 1
+													}
+												}
+											],
+											"name": "pkm:shiny_charm"
+										}
+									]
+								},
+								"key": "entries",
+								"array": [
+									{
+										"open": [
+											{
+												"type": "item",
+												"weight": 1,
+												"functions": [
+													{
+														"function": "set_count",
+														"count": {
+															"min": 1,
+															"max": 1
+														}
+													}
+												],
+												"name": "pkm:shiny_charm"
+											}
+										],
+										"children": [
+											{
+												"data": "item",
+												"key": "type"
+											},
+											{
+												"data": "1",
+												"key": "weight"
+											},
+											{
+												"open": {
+													"type": "item",
+													"weight": 1,
+													"functions": [
+														{
+															"function": "set_count",
+															"count": {
+																"min": 1,
+																"max": 1
+															}
+														}
+													],
+													"name": "pkm:shiny_charm"
+												},
+												"key": "functions",
+												"array": [
+													{
+														"open": [
+															{
+																"function": "set_count",
+																"count": {
+																	"min": 1,
+																	"max": 1
+																}
+															}
+														],
+														"children": [
+															{
+																"data": "set_count",
+																"key": "function"
+															},
+															{
+																"open": {
+																	"function": "set_count",
+																	"count": {
+																		"min": 1,
+																		"max": 1
+																	}
+																},
+																"key": "count",
+																"is_minified": true,
+																"children": {
+																	"min": 1,
+																	"max": 1
+																}
+															}
+														]
+													}
+												]
+											},
+											{
+												"data": "pkm:shiny_charm",
+												"key": "name"
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

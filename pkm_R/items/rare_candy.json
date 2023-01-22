@@ -1,0 +1,14 @@
+//bridge-file-version: #8
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "pkm:rare_candy",
+			"category": "Items"
+		},
+		"components": {
+			"minecraft:icon": "rare_candy",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

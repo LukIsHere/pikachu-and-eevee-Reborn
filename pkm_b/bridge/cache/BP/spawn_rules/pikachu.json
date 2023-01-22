@@ -1,0 +1,419 @@
+{
+	"file_path": "C:\\Users\\eduar\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Pocket Monsters\\spawn_rules\\pikachu.json",
+	"file_type": "spawn_rule",
+	"format_version": 1,
+	"file_uuid": "8e38020a_cb52_40ed_83b8_733a26d75db7",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.8.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.8.0",
+					"minecraft:spawn_rules": {
+						"description": {
+							"identifier": "pkm:pikachu",
+							"population_control": "animal"
+						},
+						"conditions": [
+							{
+								"minecraft:spawns_on_surface": {},
+								"minecraft:brightness_filter": {
+									"min": 7,
+									"max": 15,
+									"adjust_for_weather": false
+								},
+								"minecraft:weight": {
+									"default": 8
+								},
+								"minecraft:herd": {
+									"min_size": 2,
+									"max_size": 4,
+									"event": "minecraft:entity_born",
+									"event_skip_count": 2
+								},
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "taiga"
+								}
+							},
+							{
+								"minecraft:spawns_on_surface": {},
+								"minecraft:brightness_filter": {
+									"min": 7,
+									"max": 15,
+									"adjust_for_weather": false
+								},
+								"minecraft:weight": {
+									"default": 10
+								},
+								"minecraft:herd": {
+									"min_size": 2,
+									"max_size": 4,
+									"event": "minecraft:entity_born",
+									"event_skip_count": 2
+								},
+								"minecraft:biome_filter": {
+									"test": "has_biome_tag",
+									"operator": "==",
+									"value": "animal"
+								}
+							}
+						]
+					}
+				},
+				"key": "minecraft:spawn_rules",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "pkm:pikachu",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:brightness_filter": {
+										"min": 7,
+										"max": 15,
+										"adjust_for_weather": false
+									},
+									"minecraft:weight": {
+										"default": 8
+									},
+									"minecraft:herd": {
+										"min_size": 2,
+										"max_size": 4,
+										"event": "minecraft:entity_born",
+										"event_skip_count": 2
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "taiga"
+									}
+								},
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:brightness_filter": {
+										"min": 7,
+										"max": 15,
+										"adjust_for_weather": false
+									},
+									"minecraft:weight": {
+										"default": 10
+									},
+									"minecraft:herd": {
+										"min_size": 2,
+										"max_size": 4,
+										"event": "minecraft:entity_born",
+										"event_skip_count": 2
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "animal"
+									}
+								}
+							]
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "pkm:pikachu",
+							"population_control": "animal"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "pkm:pikachu",
+								"population_control": "animal"
+							},
+							"conditions": [
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:brightness_filter": {
+										"min": 7,
+										"max": 15,
+										"adjust_for_weather": false
+									},
+									"minecraft:weight": {
+										"default": 8
+									},
+									"minecraft:herd": {
+										"min_size": 2,
+										"max_size": 4,
+										"event": "minecraft:entity_born",
+										"event_skip_count": 2
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "taiga"
+									}
+								},
+								{
+									"minecraft:spawns_on_surface": {},
+									"minecraft:brightness_filter": {
+										"min": 7,
+										"max": 15,
+										"adjust_for_weather": false
+									},
+									"minecraft:weight": {
+										"default": 10
+									},
+									"minecraft:herd": {
+										"min_size": 2,
+										"max_size": 4,
+										"event": "minecraft:entity_born",
+										"event_skip_count": 2
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "animal"
+									}
+								}
+							]
+						},
+						"key": "conditions",
+						"array": [
+							{
+								"open": [
+									{
+										"minecraft:spawns_on_surface": {},
+										"minecraft:brightness_filter": {
+											"min": 7,
+											"max": 15,
+											"adjust_for_weather": false
+										},
+										"minecraft:weight": {
+											"default": 8
+										},
+										"minecraft:herd": {
+											"min_size": 2,
+											"max_size": 4,
+											"event": "minecraft:entity_born",
+											"event_skip_count": 2
+										},
+										"minecraft:biome_filter": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "taiga"
+										}
+									},
+									{
+										"minecraft:spawns_on_surface": {},
+										"minecraft:brightness_filter": {
+											"min": 7,
+											"max": 15,
+											"adjust_for_weather": false
+										},
+										"minecraft:weight": {
+											"default": 10
+										},
+										"minecraft:herd": {
+											"min_size": 2,
+											"max_size": 4,
+											"event": "minecraft:entity_born",
+											"event_skip_count": 2
+										},
+										"minecraft:biome_filter": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "animal"
+										}
+									}
+								],
+								"is_minified": true,
+								"children": {
+									"minecraft:spawns_on_surface": {},
+									"minecraft:brightness_filter": {
+										"min": 7,
+										"max": 15,
+										"adjust_for_weather": false
+									},
+									"minecraft:weight": {
+										"default": 8
+									},
+									"minecraft:herd": {
+										"min_size": 2,
+										"max_size": 4,
+										"event": "minecraft:entity_born",
+										"event_skip_count": 2
+									},
+									"minecraft:biome_filter": {
+										"test": "has_biome_tag",
+										"operator": "==",
+										"value": "taiga"
+									}
+								}
+							},
+							{
+								"open": [
+									{
+										"minecraft:spawns_on_surface": {},
+										"minecraft:brightness_filter": {
+											"min": 7,
+											"max": 15,
+											"adjust_for_weather": false
+										},
+										"minecraft:weight": {
+											"default": 8
+										},
+										"minecraft:herd": {
+											"min_size": 2,
+											"max_size": 4,
+											"event": "minecraft:entity_born",
+											"event_skip_count": 2
+										},
+										"minecraft:biome_filter": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "taiga"
+										}
+									},
+									{
+										"minecraft:spawns_on_surface": {},
+										"minecraft:brightness_filter": {
+											"min": 7,
+											"max": 15,
+											"adjust_for_weather": false
+										},
+										"minecraft:weight": {
+											"default": 10
+										},
+										"minecraft:herd": {
+											"min_size": 2,
+											"max_size": 4,
+											"event": "minecraft:entity_born",
+											"event_skip_count": 2
+										},
+										"minecraft:biome_filter": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "animal"
+										}
+									}
+								],
+								"children": [
+									{
+										"key": "minecraft:spawns_on_surface",
+										"is_minified": true,
+										"children": {}
+									},
+									{
+										"key": "minecraft:brightness_filter",
+										"is_minified": true,
+										"children": {
+											"min": 7,
+											"max": 15,
+											"adjust_for_weather": false
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:brightness_filter": {
+												"min": 7,
+												"max": 15,
+												"adjust_for_weather": false
+											},
+											"minecraft:weight": {
+												"default": 10
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 4,
+												"event": "minecraft:entity_born",
+												"event_skip_count": 2
+											},
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "animal"
+											}
+										},
+										"key": "minecraft:weight",
+										"is_minified": true,
+										"children": {
+											"default": 10
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:brightness_filter": {
+												"min": 7,
+												"max": 15,
+												"adjust_for_weather": false
+											},
+											"minecraft:weight": {
+												"default": 10
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 4,
+												"event": "minecraft:entity_born",
+												"event_skip_count": 2
+											},
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "animal"
+											}
+										},
+										"key": "minecraft:herd",
+										"is_minified": true,
+										"children": {
+											"min_size": 2,
+											"max_size": 4,
+											"event": "minecraft:entity_born",
+											"event_skip_count": 2
+										}
+									},
+									{
+										"open": {
+											"minecraft:spawns_on_surface": {},
+											"minecraft:brightness_filter": {
+												"min": 7,
+												"max": 15,
+												"adjust_for_weather": false
+											},
+											"minecraft:weight": {
+												"default": 10
+											},
+											"minecraft:herd": {
+												"min_size": 2,
+												"max_size": 4,
+												"event": "minecraft:entity_born",
+												"event_skip_count": 2
+											},
+											"minecraft:biome_filter": {
+												"test": "has_biome_tag",
+												"operator": "==",
+												"value": "animal"
+											}
+										},
+										"key": "minecraft:biome_filter",
+										"is_minified": true,
+										"children": {
+											"test": "has_biome_tag",
+											"operator": "==",
+											"value": "animal"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

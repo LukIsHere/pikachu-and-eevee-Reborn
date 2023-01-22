@@ -1,0 +1,29 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.umbra": {
+			"arrays": {
+				"textures": {
+					"Array.skins": [
+						"Texture.red",
+						"Texture.arctic"
+					],
+					"Arrays.materials": [
+						"Material.default",
+						"Material.rings"
+					]
+				}
+			},
+			"geometry": "Geometry.default",
+			"materials": [
+				{
+					"*": "Arrays.materials[query.is_visible]"
+				}
+			],
+			"textures": [
+				"Array.skins[query.variant]"
+			]
+		}
+	}
+}

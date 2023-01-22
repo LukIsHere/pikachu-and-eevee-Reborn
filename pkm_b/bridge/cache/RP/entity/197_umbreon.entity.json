@@ -1,0 +1,229 @@
+{
+	"file_path": "C:\\Users\\eduar\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Pocket Monsters R\\entity\\197_umbreon.entity.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "fb5e39f6_b6d3_4dd1_8efa_c57ac075154e",
+	"file_version": 22,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "pkm:umbreon",
+							"materials": {
+								"default": "spider",
+								"rings": "spider_invisible"
+							},
+							"textures": {
+								"red": "textures/entity/eevee/umbreon",
+								"arctic": "textures/entity/eevee/umbreon_shiny"
+							},
+							"geometry": {
+								"default": "geometry.umbreon"
+							},
+							"animations": {
+								"walk": "animation.espeon.walk",
+								"look_at_target": "animation.common.look_at_target",
+								"baby_transform": "animation.espeon.baby_transform",
+								"crouch": "animation.umbreon.crouch",
+								"sleep": "animation.espeon.sleep",
+								"setup": "animation.espeon.setup",
+								"sit": "animation.umbreon.sit",
+								"wiggle": "animation.espeon.wiggle",
+								"stuck": "animation.espeon.stuck",
+								"pounce": "animation.espeon.pounce",
+								"move": "controller.animation.fox.move"
+							},
+							"scripts": {
+								"animate": [
+									"setup",
+									{
+										"baby_transform": "query.is_baby"
+									},
+									"move"
+								]
+							},
+							"render_controllers": [
+								"controller.render.fox"
+							],
+							"spawn_egg": {
+								"texture": "pkb"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "pkm:umbreon",
+								"materials": {
+									"default": "spider",
+									"rings": "spider_invisible"
+								},
+								"textures": {
+									"red": "textures/entity/eevee/umbreon",
+									"arctic": "textures/entity/eevee/umbreon_shiny"
+								},
+								"geometry": {
+									"default": "geometry.umbreon"
+								},
+								"animations": {
+									"walk": "animation.espeon.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"baby_transform": "animation.espeon.baby_transform",
+									"crouch": "animation.umbreon.crouch",
+									"sleep": "animation.espeon.sleep",
+									"setup": "animation.espeon.setup",
+									"sit": "animation.umbreon.sit",
+									"wiggle": "animation.espeon.wiggle",
+									"stuck": "animation.espeon.stuck",
+									"pounce": "animation.espeon.pounce",
+									"move": "controller.animation.fox.move"
+								},
+								"scripts": {
+									"animate": [
+										"setup",
+										{
+											"baby_transform": "query.is_baby"
+										},
+										"move"
+									]
+								},
+								"render_controllers": [
+									"controller.render.fox"
+								],
+								"spawn_egg": {
+									"texture": "pkb"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "pkm:umbreon",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "spider",
+									"rings": "spider_invisible"
+								}
+							},
+							{
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"red": "textures/entity/eevee/umbreon",
+									"arctic": "textures/entity/eevee/umbreon_shiny"
+								}
+							},
+							{
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.umbreon"
+								}
+							},
+							{
+								"open": {
+									"identifier": "pkm:umbreon",
+									"materials": {
+										"default": "spider",
+										"rings": "spider_invisible"
+									},
+									"textures": {
+										"red": "textures/entity/eevee/umbreon",
+										"arctic": "textures/entity/eevee/umbreon_shiny"
+									},
+									"geometry": {
+										"default": "geometry.umbreon"
+									},
+									"animations": {
+										"walk": "animation.espeon.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.espeon.baby_transform",
+										"crouch": "animation.umbreon.crouch",
+										"sleep": "animation.espeon.sleep",
+										"setup": "animation.espeon.setup",
+										"sit": "animation.umbreon.sit",
+										"wiggle": "animation.espeon.wiggle",
+										"stuck": "animation.espeon.stuck",
+										"pounce": "animation.espeon.pounce",
+										"move": "controller.animation.fox.move"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.fox"
+									],
+									"spawn_egg": {
+										"texture": "pkb"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"walk": "animation.espeon.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"baby_transform": "animation.espeon.baby_transform",
+									"crouch": "animation.umbreon.crouch",
+									"sleep": "animation.espeon.sleep",
+									"setup": "animation.espeon.setup",
+									"sit": "animation.umbreon.sit",
+									"wiggle": "animation.espeon.wiggle",
+									"stuck": "animation.espeon.stuck",
+									"pounce": "animation.espeon.pounce",
+									"move": "controller.animation.fox.move"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										"setup",
+										{
+											"baby_transform": "query.is_baby"
+										},
+										"move"
+									]
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"array": [
+									"controller.render.fox"
+								]
+							},
+							{
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "pkb"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

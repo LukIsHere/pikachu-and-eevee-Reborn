@@ -1,0 +1,215 @@
+{
+	"file_path": "C:\\Users\\eduar\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Pocket Monsters B\\animation_controllers\\charizard_fly.json",
+	"file_type": "animation_controller",
+	"format_version": 1,
+	"file_uuid": "b34b0f63_ad3c_4edd_a9b4_c712fe65e154",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.charizard_fly": {
+							"states": {
+								"default": {
+									"transitions": [
+										{
+											"flying": "(1.0)"
+										}
+									],
+									"on_entry": [
+										"/function charizardFlyMount"
+									]
+								},
+								"flying": {
+									"transitions": [
+										{
+											"default": "query.has_rider"
+										}
+									],
+									"on_entry": [
+										"/function charizardFlyMount"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.charizard_fly": {
+								"states": {
+									"default": {
+										"transitions": [
+											{
+												"flying": "(1.0)"
+											}
+										],
+										"on_entry": [
+											"/function charizardFlyMount"
+										]
+									},
+									"flying": {
+										"transitions": [
+											{
+												"default": "query.has_rider"
+											}
+										],
+										"on_entry": [
+											"/function charizardFlyMount"
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.charizard_fly",
+						"children": [
+							{
+								"open": {
+									"states": {
+										"default": {
+											"transitions": [
+												{
+													"flying": "(1.0)"
+												}
+											],
+											"on_entry": [
+												"/function charizardFlyMount"
+											]
+										},
+										"flying": {
+											"transitions": [
+												{
+													"default": "query.has_rider"
+												}
+											],
+											"on_entry": [
+												"/function charizardFlyMount"
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"flying": "(1.0)"
+													}
+												],
+												"on_entry": [
+													"/function charizardFlyMount"
+												]
+											},
+											"flying": {
+												"transitions": [
+													{
+														"default": "query.has_rider"
+													}
+												],
+												"on_entry": [
+													"/function charizardFlyMount"
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"key": "transitions",
+												"is_minified": true,
+												"children": [
+													{
+														"flying": "(1.0)"
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"flying": "(1.0)"
+														}
+													],
+													"on_entry": [
+														"/function charizardFlyMount"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/function charizardFlyMount"
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"default": {
+												"transitions": [
+													{
+														"flying": "(1.0)"
+													}
+												],
+												"on_entry": [
+													"/function charizardFlyMount"
+												]
+											},
+											"flying": {
+												"transitions": [
+													{
+														"default": "query.has_rider"
+													}
+												],
+												"on_entry": [
+													"/function charizardFlyMount"
+												]
+											}
+										},
+										"key": "flying",
+										"children": [
+											{
+												"key": "transitions",
+												"is_minified": true,
+												"children": [
+													{
+														"default": "query.has_rider"
+													}
+												]
+											},
+											{
+												"open": {
+													"transitions": [
+														{
+															"default": "query.has_rider"
+														}
+													],
+													"on_entry": [
+														"/function charizardFlyMount"
+													]
+												},
+												"key": "on_entry",
+												"is_minified": true,
+												"children": [
+													"/function charizardFlyMount"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

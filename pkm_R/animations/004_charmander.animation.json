@@ -1,0 +1,80 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.charmander.sit": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": [0, -2, 0]
+				},
+				"leg0": {
+					"rotation": [-90, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"leg1": {
+					"rotation": [-90, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"tail": {
+					"rotation": [-5, "math.cos(query.anim_time * 38.17) * 20.0", 0]
+				},
+				"arm0": {
+					"rotation": [-10, 0, 0]
+				},
+				"arm1": {
+					"rotation": [-10, 0, 0]
+				},
+				"bone2": {
+					"rotation": [10, 0, 0]
+				}
+			}
+		},
+		"animation.charmander.setup": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": ["-this", 0, 0]
+				},
+				"bone": {
+					"rotation": ["-10+math.cos(query.anim_time * 38.17) * -10.0", 0, 0]
+				},
+				"arm0": {
+					"rotation": [0, 0, 20]
+				},
+				"arm1": {
+					"rotation": [0, 0, -20]
+				},
+				"fire0": {
+					"scale": ["math.cos(query.anim_time * 60.17) * 1.0", "math.cos(query.anim_time * 60.17) * 1.0", 1]
+				},
+				"fire1": {
+					"scale": ["math.cos(query.anim_time * 90.17) * 1.0", "math.cos(query.anim_time * 90.17) * 1.0", 1]
+				}
+			}
+		},
+		"animation.clefairy.crouch": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [30, 0, 0],
+					"position": [0, 0, 1]
+				},
+				"head": {
+					"rotation": [-30, 0, 0],
+					"position": [0, 0, -2]
+				},
+				"leg0": {
+					"rotation": [-30, 0, 0]
+				},
+				"leg1": {
+					"rotation": [-30, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"tail": {
+					"rotation": [-25, 0, 0],
+					"position": [0, -1, 0]
+				}
+			}
+		}
+	}
+}

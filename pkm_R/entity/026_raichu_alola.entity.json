@@ -1,0 +1,47 @@
+//bridge-file-version: #37
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pkm:raichu_alola",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"red": "textures/entity/pikachu/raichu_alola",
+				"arctic": "textures/entity/pikachu/raichu_shiny_alola"
+			},
+			"geometry": {
+				"default": "geometry.raichu_alola"
+			},
+			"animations": {
+				"walk": "animation.raichu_alola.walk",
+				"look_at_target": "animation.raichu.look_at_target",
+				"baby_transform": "animation.raichu_alola.baby_transform",
+				"crouch": "animation.raichu_alola.crouch",
+				"sleep": "animation.raichu_alola.sleep",
+				"setup": "animation.raichu_alola.setup",
+				"sit": "animation.raichu_alola.sit",
+				"wiggle": "animation.raichu_alola.wiggle",
+				"stuck": "animation.raichu_alola.stuck",
+				"pounce": "animation.raichu_alola.pounce",
+				"move": "controller.animation.fox.move"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"move"
+				]
+			},
+			"render_controllers": [
+				"controller.render.fox"
+			],
+			"spawn_egg": {
+				"texture": "pkb"
+			}
+		}
+	}
+}

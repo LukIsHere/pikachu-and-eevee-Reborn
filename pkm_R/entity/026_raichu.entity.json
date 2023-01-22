@@ -1,0 +1,47 @@
+//bridge-file-version: #30
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pkm:raichu",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"red": "textures/entity/pikachu/raichu",
+				"arctic": "textures/entity/pikachu/raichu_shiny"
+			},
+			"geometry": {
+				"default": "geometry.raichu"
+			},
+			"animations": {
+				"walk": "animation.raichu.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.raichu.baby_transform",
+				"crouch": "animation.raichu.crouch",
+				"sleep": "animation.raichu.sleep",
+				"setup": "animation.raichu.setup",
+				"sit": "animation.raichu.sit",
+				"wiggle": "animation.raichu.wiggle",
+				"stuck": "animation.raichu.stuck",
+				"pounce": "animation.raichu.pounce",
+				"move": "controller.animation.fox.move"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"move"
+				]
+			},
+			"render_controllers": [
+				"controller.render.fox"
+			],
+			"spawn_egg": {
+				"texture": "pkb"
+			}
+		}
+	}
+}

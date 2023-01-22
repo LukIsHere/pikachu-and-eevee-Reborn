@@ -1,0 +1,31 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "pkm:charm_shiny"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" G ",
+			"GSG",
+			" G "
+		],
+		"key": {
+			"S": {
+				"item": "minecraft:netherstar"
+			},
+			"G": {
+				"item": "minecraft:dye",
+				"data": 4
+			}
+		},
+		"result": [
+			{
+				"item": "pkm:shiny_charm"
+			}
+		]
+	}
+}

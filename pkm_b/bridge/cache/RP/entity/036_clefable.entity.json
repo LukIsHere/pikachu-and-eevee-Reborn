@@ -1,0 +1,348 @@
+{
+	"file_path": "C:\\Users\\eduar\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Pocket Monsters R\\entity\\036_clefable.entity.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "4b3736fd_7a59_4c9f_b29c_5a8cefb4a146",
+	"file_version": 22,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "pkm:clefable",
+							"materials": {
+								"default": "skeleton"
+							},
+							"textures": {
+								"red": "textures/entity/clefairy/clefable",
+								"arctic": "textures/entity/clefairy/clefable_shiny"
+							},
+							"geometry": {
+								"default": "geometry.clefable"
+							},
+							"animations": {
+								"walk": "animation.clefairy.walk",
+								"look_at_target": "animation.common.look_at_target",
+								"baby_transform": "animation.clefairy.baby_transform",
+								"crouch": "animation.clefairy.crouch",
+								"sleep": "animation.pika.sleep",
+								"setup": "animation.clefairy.setup",
+								"sit": "animation.clefable.sit",
+								"wiggle": "animation.clefairy.wiggle",
+								"stuck": "animation.clefairy.stuck",
+								"pounce": "animation.clefairy.pounce",
+								"move": "controller.animation.fox.move"
+							},
+							"scripts": {
+								"animate": [
+									"setup",
+									{
+										"baby_transform": "query.is_baby"
+									},
+									"move"
+								]
+							},
+							"render_controllers": [
+								"controller.render.fox"
+							],
+							"spawn_egg": {
+								"texture": "pkb"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "pkm:clefable",
+								"materials": {
+									"default": "skeleton"
+								},
+								"textures": {
+									"red": "textures/entity/clefairy/clefable",
+									"arctic": "textures/entity/clefairy/clefable_shiny"
+								},
+								"geometry": {
+									"default": "geometry.clefable"
+								},
+								"animations": {
+									"walk": "animation.clefairy.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"baby_transform": "animation.clefairy.baby_transform",
+									"crouch": "animation.clefairy.crouch",
+									"sleep": "animation.pika.sleep",
+									"setup": "animation.clefairy.setup",
+									"sit": "animation.clefable.sit",
+									"wiggle": "animation.clefairy.wiggle",
+									"stuck": "animation.clefairy.stuck",
+									"pounce": "animation.clefairy.pounce",
+									"move": "controller.animation.fox.move"
+								},
+								"scripts": {
+									"animate": [
+										"setup",
+										{
+											"baby_transform": "query.is_baby"
+										},
+										"move"
+									]
+								},
+								"render_controllers": [
+									"controller.render.fox"
+								],
+								"spawn_egg": {
+									"texture": "pkb"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "pkm:clefable",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"red": "textures/entity/clefairy/clefable",
+										"arctic": "textures/entity/clefairy/clefable_shiny"
+									},
+									"geometry": {
+										"default": "geometry.clefable"
+									},
+									"animations": {
+										"walk": "animation.clefairy.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.clefairy.baby_transform",
+										"crouch": "animation.clefairy.crouch",
+										"sleep": "animation.pika.sleep",
+										"setup": "animation.clefairy.setup",
+										"sit": "animation.clefable.sit",
+										"wiggle": "animation.clefairy.wiggle",
+										"stuck": "animation.clefairy.stuck",
+										"pounce": "animation.clefairy.pounce",
+										"move": "controller.animation.fox.move"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.fox"
+									],
+									"spawn_egg": {
+										"texture": "pkb"
+									}
+								},
+								"data": "pkm:clefable",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "skeleton"
+								}
+							},
+							{
+								"open": {
+									"identifier": "pkm:clefable",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"red": "textures/entity/clefairy/clefable",
+										"arctic": "textures/entity/clefairy/clefable_shiny"
+									},
+									"geometry": {
+										"default": "geometry.clefable"
+									},
+									"animations": {
+										"walk": "animation.clefairy.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.clefairy.baby_transform",
+										"crouch": "animation.clefairy.crouch",
+										"sleep": "animation.pika.sleep",
+										"setup": "animation.clefairy.setup",
+										"sit": "animation.clefable.sit",
+										"wiggle": "animation.clefairy.wiggle",
+										"stuck": "animation.clefairy.stuck",
+										"pounce": "animation.clefairy.pounce",
+										"move": "controller.animation.fox.move"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.fox"
+									],
+									"spawn_egg": {
+										"texture": "pkb"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"red": "textures/entity/clefairy/clefable",
+									"arctic": "textures/entity/clefairy/clefable_shiny"
+								}
+							},
+							{
+								"open": {
+									"identifier": "pkm:clefable",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"red": "textures/entity/clefairy/clefable",
+										"arctic": "textures/entity/clefairy/clefable_shiny"
+									},
+									"geometry": {
+										"default": "geometry.clefable"
+									},
+									"animations": {
+										"walk": "animation.clefairy.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.clefairy.baby_transform",
+										"crouch": "animation.clefairy.crouch",
+										"sleep": "animation.pika.sleep",
+										"setup": "animation.clefairy.setup",
+										"sit": "animation.clefable.sit",
+										"wiggle": "animation.clefairy.wiggle",
+										"stuck": "animation.clefairy.stuck",
+										"pounce": "animation.clefairy.pounce",
+										"move": "controller.animation.fox.move"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.fox"
+									],
+									"spawn_egg": {
+										"texture": "pkb"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.clefable"
+								}
+							},
+							{
+								"open": {
+									"identifier": "pkm:clefable",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"red": "textures/entity/clefairy/clefable",
+										"arctic": "textures/entity/clefairy/clefable_shiny"
+									},
+									"geometry": {
+										"default": "geometry.clefable"
+									},
+									"animations": {
+										"walk": "animation.clefairy.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.clefairy.baby_transform",
+										"crouch": "animation.clefairy.crouch",
+										"sleep": "animation.pika.sleep",
+										"setup": "animation.clefairy.setup",
+										"sit": "animation.clefable.sit",
+										"wiggle": "animation.clefairy.wiggle",
+										"stuck": "animation.clefairy.stuck",
+										"pounce": "animation.clefairy.pounce",
+										"move": "controller.animation.fox.move"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.fox"
+									],
+									"spawn_egg": {
+										"texture": "pkb"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"walk": "animation.clefairy.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"baby_transform": "animation.clefairy.baby_transform",
+									"crouch": "animation.clefairy.crouch",
+									"sleep": "animation.pika.sleep",
+									"setup": "animation.clefairy.setup",
+									"sit": "animation.clefable.sit",
+									"wiggle": "animation.clefairy.wiggle",
+									"stuck": "animation.clefairy.stuck",
+									"pounce": "animation.clefairy.pounce",
+									"move": "controller.animation.fox.move"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										"setup",
+										{
+											"baby_transform": "query.is_baby"
+										},
+										"move"
+									]
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"array": [
+									"controller.render.fox"
+								]
+							},
+							{
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "pkb"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

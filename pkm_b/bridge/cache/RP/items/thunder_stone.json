@@ -1,0 +1,69 @@
+{
+	"file_path": "C:\\Users\\eduar\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Pocket Monsters R\\items\\thunder_stone.json",
+	"file_type": "client_item",
+	"format_version": 1,
+	"file_uuid": "8f6b7ebf_445d_45e4_ad8f_be55ee603c61",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": 1.1,
+					"minecraft:item": {
+						"description": {
+							"identifier": "pkm:thunder_stone",
+							"category": "Items"
+						},
+						"components": {
+							"minecraft:icon": "thunder_stone",
+							"minecraft:render_offsets": "apple"
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "pkm:thunder_stone",
+								"category": "Items"
+							},
+							"components": {
+								"minecraft:icon": "thunder_stone",
+								"minecraft:render_offsets": "apple"
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "pkm:thunder_stone",
+							"category": "Items"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "pkm:thunder_stone",
+								"category": "Items"
+							},
+							"components": {
+								"minecraft:icon": "thunder_stone",
+								"minecraft:render_offsets": "apple"
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:icon": "thunder_stone",
+							"minecraft:render_offsets": "apple"
+						}
+					}
+				]
+			}
+		]
+	}
+}

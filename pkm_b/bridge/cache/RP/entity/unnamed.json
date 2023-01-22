@@ -1,0 +1,287 @@
+{
+	"file_path": "C:\\Users\\eduar\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Pocket Monsters R/entity/unnamed.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "7af83f11_dd59_435c_9577_eaff1ebd0778",
+	"file_version": 0,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "pkm:eletric_ball",
+							"materials": {
+								"default": "snowball"
+							},
+							"textures": {
+								"default": "textures/items/snowball"
+							},
+							"geometry": {
+								"default": "geometry.item_sprite"
+							},
+							"render_controllers": [
+								"controller.render.item_sprite"
+							],
+							"animations": {
+								"flying": "animation.actor.billboard"
+							},
+							"scripts": {
+								"animate": [
+									"flying"
+								]
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "pkm:eletric_ball",
+								"materials": {
+									"default": "snowball"
+								},
+								"textures": {
+									"default": "textures/items/snowball"
+								},
+								"geometry": {
+									"default": "geometry.item_sprite"
+								},
+								"render_controllers": [
+									"controller.render.item_sprite"
+								],
+								"animations": {
+									"flying": "animation.actor.billboard"
+								},
+								"scripts": {
+									"animate": [
+										"flying"
+									]
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"open": {
+									"identifier": "pkm:eletric_ball",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/snowball"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"data": "pkm:eletric_ball",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "pkm:eletric_ball",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/snowball"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "snowball"
+								}
+							},
+							{
+								"open": {
+									"identifier": "pkm:eletric_ball",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/snowball"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/items/snowball"
+								}
+							},
+							{
+								"open": {
+									"identifier": "pkm:eletric_ball",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/snowball"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.item_sprite"
+								}
+							},
+							{
+								"open": {
+									"identifier": "pkm:eletric_ball",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/snowball"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"array": [
+									"controller.render.item_sprite"
+								]
+							},
+							{
+								"open": {
+									"identifier": "pkm:eletric_ball",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/snowball"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"flying": "animation.actor.billboard"
+								}
+							},
+							{
+								"open": {
+									"identifier": "pkm:eletric_ball",
+									"materials": {
+										"default": "snowball"
+									},
+									"textures": {
+										"default": "textures/items/snowball"
+									},
+									"geometry": {
+										"default": "geometry.item_sprite"
+									},
+									"render_controllers": [
+										"controller.render.item_sprite"
+									],
+									"animations": {
+										"flying": "animation.actor.billboard"
+									},
+									"scripts": {
+										"animate": [
+											"flying"
+										]
+									}
+								},
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										"flying"
+									]
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

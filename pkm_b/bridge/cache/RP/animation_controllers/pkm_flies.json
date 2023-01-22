@@ -1,0 +1,2179 @@
+{
+	"file_path": "C:\\Users\\eduar\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Pocket Monsters R\\animation_controllers\\pkm_flies.json",
+	"file_type": "rp_animation_controller",
+	"format_version": 1,
+	"file_uuid": "372b8338_836a_4bcd_a3a5_467dec31140b",
+	"file_version": 1,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.pkm_flies.move": {
+							"initial_state": "default",
+							"states": {
+								"crouch": {
+									"animations": [
+										"look_at_target",
+										"crouch",
+										{
+											"walk": "query.modified_move_speed"
+										}
+									],
+									"blend_transition": 0.4,
+									"transitions": [
+										{
+											"default": "!query.is_stalking && !query.is_interested"
+										},
+										{
+											"wiggle": "query.is_interested"
+										}
+									]
+								},
+								"default": {
+									"animations": [
+										"look_at_target",
+										{
+											"walk": "query.modified_move_speed"
+										}
+									],
+									"blend_transition": 0.1,
+									"transitions": [
+										{
+											"crouch": "query.is_stalking"
+										},
+										{
+											"sleep": "query.is_sleeping"
+										},
+										{
+											"stuck": "query.is_stunned"
+										},
+										{
+											"sit": "query.is_sitting"
+										},
+										{
+											"flies": "!query.is_on_ground"
+										}
+									]
+								},
+								"pounce": {
+									"animations": [
+										"look_at_target",
+										"pounce",
+										{
+											"walk": "query.modified_move_speed"
+										}
+									],
+									"transitions": [
+										{
+											"default": "query.is_on_ground"
+										}
+									]
+								},
+								"sit": {
+									"animations": [
+										"sit"
+									],
+									"blend_transition": 0.2,
+									"transitions": [
+										{
+											"default": "!query.is_sitting"
+										},
+										{
+											"flies": "!query.is_on_ground"
+										}
+									]
+								},
+								"sleep": {
+									"animations": [
+										"sleep"
+									],
+									"blend_transition": 0.2,
+									"transitions": [
+										{
+											"default": "!query.is_sleeping"
+										}
+									]
+								},
+								"stuck": {
+									"animations": [
+										"stuck",
+										{
+											"walk": "math.cos(query.life_time * 20.0 * 53.7)"
+										}
+									],
+									"blend_transition": 0.2,
+									"transitions": [
+										{
+											"default": "!query.is_stunned"
+										}
+									]
+								},
+								"wiggle": {
+									"animations": [
+										"look_at_target",
+										"wiggle",
+										{
+											"walk": "query.modified_move_speed"
+										}
+									],
+									"blend_transition": 0.2,
+									"transitions": [
+										{
+											"default": "query.is_on_ground && !query.is_interested && !query.is_stalking"
+										},
+										{
+											"crouch": "query.is_on_ground && !query.is_interested && query.is_stalking"
+										},
+										{
+											"pounce": "!query.is_on_ground"
+										}
+									]
+								},
+								"flies": {
+									"animations": [
+										"setup",
+										"flying"
+									],
+									"blend_transition": 0.3,
+									"transitions": [
+										{
+											"default": "query.is_on_ground"
+										}
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.pkm_flies.move": {
+								"initial_state": "default",
+								"states": {
+									"crouch": {
+										"animations": [
+											"look_at_target",
+											"crouch",
+											{
+												"walk": "query.modified_move_speed"
+											}
+										],
+										"blend_transition": 0.4,
+										"transitions": [
+											{
+												"default": "!query.is_stalking && !query.is_interested"
+											},
+											{
+												"wiggle": "query.is_interested"
+											}
+										]
+									},
+									"default": {
+										"animations": [
+											"look_at_target",
+											{
+												"walk": "query.modified_move_speed"
+											}
+										],
+										"blend_transition": 0.1,
+										"transitions": [
+											{
+												"crouch": "query.is_stalking"
+											},
+											{
+												"sleep": "query.is_sleeping"
+											},
+											{
+												"stuck": "query.is_stunned"
+											},
+											{
+												"sit": "query.is_sitting"
+											},
+											{
+												"flies": "!query.is_on_ground"
+											}
+										]
+									},
+									"pounce": {
+										"animations": [
+											"look_at_target",
+											"pounce",
+											{
+												"walk": "query.modified_move_speed"
+											}
+										],
+										"transitions": [
+											{
+												"default": "query.is_on_ground"
+											}
+										]
+									},
+									"sit": {
+										"animations": [
+											"sit"
+										],
+										"blend_transition": 0.2,
+										"transitions": [
+											{
+												"default": "!query.is_sitting"
+											},
+											{
+												"flies": "!query.is_on_ground"
+											}
+										]
+									},
+									"sleep": {
+										"animations": [
+											"sleep"
+										],
+										"blend_transition": 0.2,
+										"transitions": [
+											{
+												"default": "!query.is_sleeping"
+											}
+										]
+									},
+									"stuck": {
+										"animations": [
+											"stuck",
+											{
+												"walk": "math.cos(query.life_time * 20.0 * 53.7)"
+											}
+										],
+										"blend_transition": 0.2,
+										"transitions": [
+											{
+												"default": "!query.is_stunned"
+											}
+										]
+									},
+									"wiggle": {
+										"animations": [
+											"look_at_target",
+											"wiggle",
+											{
+												"walk": "query.modified_move_speed"
+											}
+										],
+										"blend_transition": 0.2,
+										"transitions": [
+											{
+												"default": "query.is_on_ground && !query.is_interested && !query.is_stalking"
+											},
+											{
+												"crouch": "query.is_on_ground && !query.is_interested && query.is_stalking"
+											},
+											{
+												"pounce": "!query.is_on_ground"
+											}
+										]
+									},
+									"flies": {
+										"animations": [
+											"setup",
+											"flying"
+										],
+										"blend_transition": 0.3,
+										"transitions": [
+											{
+												"default": "query.is_on_ground"
+											}
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.pkm_flies.move",
+						"children": [
+							{
+								"data": "default",
+								"key": "initial_state"
+							},
+							{
+								"open": {
+									"initial_state": "default",
+									"states": {
+										"crouch": {
+											"animations": [
+												"look_at_target",
+												"crouch",
+												{
+													"walk": "query.modified_move_speed"
+												}
+											],
+											"blend_transition": 0.4,
+											"transitions": [
+												{
+													"default": "!query.is_stalking && !query.is_interested"
+												},
+												{
+													"wiggle": "query.is_interested"
+												}
+											]
+										},
+										"default": {
+											"animations": [
+												"look_at_target",
+												{
+													"walk": "query.modified_move_speed"
+												}
+											],
+											"blend_transition": 0.1,
+											"transitions": [
+												{
+													"crouch": "query.is_stalking"
+												},
+												{
+													"sleep": "query.is_sleeping"
+												},
+												{
+													"stuck": "query.is_stunned"
+												},
+												{
+													"sit": "query.is_sitting"
+												},
+												{
+													"flies": "!query.is_on_ground"
+												}
+											]
+										},
+										"pounce": {
+											"animations": [
+												"look_at_target",
+												"pounce",
+												{
+													"walk": "query.modified_move_speed"
+												}
+											],
+											"transitions": [
+												{
+													"default": "query.is_on_ground"
+												}
+											]
+										},
+										"sit": {
+											"animations": [
+												"sit"
+											],
+											"blend_transition": 0.2,
+											"transitions": [
+												{
+													"default": "!query.is_sitting"
+												},
+												{
+													"flies": "!query.is_on_ground"
+												}
+											]
+										},
+										"sleep": {
+											"animations": [
+												"sleep"
+											],
+											"blend_transition": 0.2,
+											"transitions": [
+												{
+													"default": "!query.is_sleeping"
+												}
+											]
+										},
+										"stuck": {
+											"animations": [
+												"stuck",
+												{
+													"walk": "math.cos(query.life_time * 20.0 * 53.7)"
+												}
+											],
+											"blend_transition": 0.2,
+											"transitions": [
+												{
+													"default": "!query.is_stunned"
+												}
+											]
+										},
+										"wiggle": {
+											"animations": [
+												"look_at_target",
+												"wiggle",
+												{
+													"walk": "query.modified_move_speed"
+												}
+											],
+											"blend_transition": 0.2,
+											"transitions": [
+												{
+													"default": "query.is_on_ground && !query.is_interested && !query.is_stalking"
+												},
+												{
+													"crouch": "query.is_on_ground && !query.is_interested && query.is_stalking"
+												},
+												{
+													"pounce": "!query.is_on_ground"
+												}
+											]
+										},
+										"flies": {
+											"animations": [
+												"setup",
+												"flying"
+											],
+											"blend_transition": 0.3,
+											"transitions": [
+												{
+													"default": "query.is_on_ground"
+												}
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"crouch": {
+												"animations": [
+													"look_at_target",
+													"crouch",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.4,
+												"transitions": [
+													{
+														"default": "!query.is_stalking && !query.is_interested"
+													},
+													{
+														"wiggle": "query.is_interested"
+													}
+												]
+											},
+											"default": {
+												"animations": [
+													"look_at_target",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.1,
+												"transitions": [
+													{
+														"crouch": "query.is_stalking"
+													},
+													{
+														"sleep": "query.is_sleeping"
+													},
+													{
+														"stuck": "query.is_stunned"
+													},
+													{
+														"sit": "query.is_sitting"
+													},
+													{
+														"flies": "!query.is_on_ground"
+													}
+												]
+											},
+											"pounce": {
+												"animations": [
+													"look_at_target",
+													"pounce",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"transitions": [
+													{
+														"default": "query.is_on_ground"
+													}
+												]
+											},
+											"sit": {
+												"animations": [
+													"sit"
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_sitting"
+													},
+													{
+														"flies": "!query.is_on_ground"
+													}
+												]
+											},
+											"sleep": {
+												"animations": [
+													"sleep"
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_sleeping"
+													}
+												]
+											},
+											"stuck": {
+												"animations": [
+													"stuck",
+													{
+														"walk": "math.cos(query.life_time * 20.0 * 53.7)"
+													}
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_stunned"
+													}
+												]
+											},
+											"wiggle": {
+												"animations": [
+													"look_at_target",
+													"wiggle",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "query.is_on_ground && !query.is_interested && !query.is_stalking"
+													},
+													{
+														"crouch": "query.is_on_ground && !query.is_interested && query.is_stalking"
+													},
+													{
+														"pounce": "!query.is_on_ground"
+													}
+												]
+											},
+											"flies": {
+												"animations": [
+													"setup",
+													"flying"
+												],
+												"blend_transition": 0.3,
+												"transitions": [
+													{
+														"default": "query.is_on_ground"
+													}
+												]
+											}
+										},
+										"key": "crouch",
+										"children": [
+											{
+												"open": {
+													"animations": [
+														"look_at_target",
+														"crouch",
+														{
+															"walk": "query.modified_move_speed"
+														}
+													],
+													"blend_transition": 0.4,
+													"transitions": [
+														{
+															"default": "!query.is_stalking && !query.is_interested"
+														},
+														{
+															"wiggle": "query.is_interested"
+														}
+													]
+												},
+												"key": "animations",
+												"is_minified": true,
+												"children": [
+													"look_at_target",
+													"crouch",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												]
+											},
+											{
+												"data": "0.4",
+												"key": "blend_transition"
+											},
+											{
+												"open": {
+													"animations": [
+														"look_at_target",
+														"crouch",
+														{
+															"walk": "query.modified_move_speed"
+														}
+													],
+													"blend_transition": 0.4,
+													"transitions": [
+														{
+															"default": "!query.is_stalking && !query.is_interested"
+														},
+														{
+															"wiggle": "query.is_interested"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "!query.is_stalking && !query.is_interested"
+															},
+															{
+																"wiggle": "query.is_interested"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "!query.is_stalking && !query.is_interested"
+														}
+													},
+													{
+														"open": [
+															{
+																"default": "!query.is_stalking && !query.is_interested"
+															},
+															{
+																"wiggle": "query.is_interested"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"wiggle": "query.is_interested"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"crouch": {
+												"animations": [
+													"look_at_target",
+													"crouch",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.4,
+												"transitions": [
+													{
+														"default": "!query.is_stalking && !query.is_interested"
+													},
+													{
+														"wiggle": "query.is_interested"
+													}
+												]
+											},
+											"default": {
+												"animations": [
+													"look_at_target",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.1,
+												"transitions": [
+													{
+														"crouch": "query.is_stalking"
+													},
+													{
+														"sleep": "query.is_sleeping"
+													},
+													{
+														"stuck": "query.is_stunned"
+													},
+													{
+														"sit": "query.is_sitting"
+													},
+													{
+														"flies": "!query.is_on_ground"
+													}
+												]
+											},
+											"pounce": {
+												"animations": [
+													"look_at_target",
+													"pounce",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"transitions": [
+													{
+														"default": "query.is_on_ground"
+													}
+												]
+											},
+											"sit": {
+												"animations": [
+													"sit"
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_sitting"
+													},
+													{
+														"flies": "!query.is_on_ground"
+													}
+												]
+											},
+											"sleep": {
+												"animations": [
+													"sleep"
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_sleeping"
+													}
+												]
+											},
+											"stuck": {
+												"animations": [
+													"stuck",
+													{
+														"walk": "math.cos(query.life_time * 20.0 * 53.7)"
+													}
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_stunned"
+													}
+												]
+											},
+											"wiggle": {
+												"animations": [
+													"look_at_target",
+													"wiggle",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "query.is_on_ground && !query.is_interested && !query.is_stalking"
+													},
+													{
+														"crouch": "query.is_on_ground && !query.is_interested && query.is_stalking"
+													},
+													{
+														"pounce": "!query.is_on_ground"
+													}
+												]
+											},
+											"flies": {
+												"animations": [
+													"setup",
+													"flying"
+												],
+												"blend_transition": 0.3,
+												"transitions": [
+													{
+														"default": "query.is_on_ground"
+													}
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"animations": [
+														"look_at_target",
+														{
+															"walk": "query.modified_move_speed"
+														}
+													],
+													"blend_transition": 0.1,
+													"transitions": [
+														{
+															"crouch": "query.is_stalking"
+														},
+														{
+															"sleep": "query.is_sleeping"
+														},
+														{
+															"stuck": "query.is_stunned"
+														},
+														{
+															"sit": "query.is_sitting"
+														},
+														{
+															"flies": "!query.is_on_ground"
+														}
+													]
+												},
+												"key": "animations",
+												"children": [
+													{
+														"data": "look_at_target"
+													},
+													{
+														"open": [
+															"look_at_target",
+															{
+																"walk": "query.modified_move_speed"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"walk": "query.modified_move_speed"
+														}
+													}
+												]
+											},
+											{
+												"data": "0.1",
+												"key": "blend_transition"
+											},
+											{
+												"open": {
+													"animations": [
+														"look_at_target",
+														{
+															"walk": "query.modified_move_speed"
+														}
+													],
+													"blend_transition": 0.1,
+													"transitions": [
+														{
+															"crouch": "query.is_stalking"
+														},
+														{
+															"sleep": "query.is_sleeping"
+														},
+														{
+															"stuck": "query.is_stunned"
+														},
+														{
+															"sit": "query.is_sitting"
+														},
+														{
+															"flies": "!query.is_on_ground"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"crouch": "query.is_stalking"
+															},
+															{
+																"sleep": "query.is_sleeping"
+															},
+															{
+																"stuck": "query.is_stunned"
+															},
+															{
+																"sit": "query.is_sitting"
+															},
+															{
+																"flies": "!query.is_on_ground"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"crouch": "query.is_stalking"
+														}
+													},
+													{
+														"open": [
+															{
+																"crouch": "query.is_stalking"
+															},
+															{
+																"sleep": "query.is_sleeping"
+															},
+															{
+																"stuck": "query.is_stunned"
+															},
+															{
+																"sit": "query.is_sitting"
+															},
+															{
+																"flies": "!query.is_on_ground"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"sleep": "query.is_sleeping"
+														}
+													},
+													{
+														"open": [
+															{
+																"crouch": "query.is_stalking"
+															},
+															{
+																"sleep": "query.is_sleeping"
+															},
+															{
+																"stuck": "query.is_stunned"
+															},
+															{
+																"sit": "query.is_sitting"
+															},
+															{
+																"flies": "!query.is_on_ground"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"stuck": "query.is_stunned"
+														}
+													},
+													{
+														"open": [
+															{
+																"crouch": "query.is_stalking"
+															},
+															{
+																"sleep": "query.is_sleeping"
+															},
+															{
+																"stuck": "query.is_stunned"
+															},
+															{
+																"sit": "query.is_sitting"
+															},
+															{
+																"flies": "!query.is_on_ground"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"sit": "query.is_sitting"
+														}
+													},
+													{
+														"open": [
+															{
+																"crouch": "query.is_stalking"
+															},
+															{
+																"sleep": "query.is_sleeping"
+															},
+															{
+																"stuck": "query.is_stunned"
+															},
+															{
+																"sit": "query.is_sitting"
+															},
+															{
+																"flies": "!query.is_on_ground"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"flies": "!query.is_on_ground"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"crouch": {
+												"animations": [
+													"look_at_target",
+													"crouch",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.4,
+												"transitions": [
+													{
+														"default": "!query.is_stalking && !query.is_interested"
+													},
+													{
+														"wiggle": "query.is_interested"
+													}
+												]
+											},
+											"default": {
+												"animations": [
+													"look_at_target",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.1,
+												"transitions": [
+													{
+														"crouch": "query.is_stalking"
+													},
+													{
+														"sleep": "query.is_sleeping"
+													},
+													{
+														"stuck": "query.is_stunned"
+													},
+													{
+														"sit": "query.is_sitting"
+													},
+													{
+														"flies": "!query.is_on_ground"
+													}
+												]
+											},
+											"pounce": {
+												"animations": [
+													"look_at_target",
+													"pounce",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"transitions": [
+													{
+														"default": "query.is_on_ground"
+													}
+												]
+											},
+											"sit": {
+												"animations": [
+													"sit"
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_sitting"
+													},
+													{
+														"flies": "!query.is_on_ground"
+													}
+												]
+											},
+											"sleep": {
+												"animations": [
+													"sleep"
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_sleeping"
+													}
+												]
+											},
+											"stuck": {
+												"animations": [
+													"stuck",
+													{
+														"walk": "math.cos(query.life_time * 20.0 * 53.7)"
+													}
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_stunned"
+													}
+												]
+											},
+											"wiggle": {
+												"animations": [
+													"look_at_target",
+													"wiggle",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "query.is_on_ground && !query.is_interested && !query.is_stalking"
+													},
+													{
+														"crouch": "query.is_on_ground && !query.is_interested && query.is_stalking"
+													},
+													{
+														"pounce": "!query.is_on_ground"
+													}
+												]
+											},
+											"flies": {
+												"animations": [
+													"setup",
+													"flying"
+												],
+												"blend_transition": 0.3,
+												"transitions": [
+													{
+														"default": "query.is_on_ground"
+													}
+												]
+											}
+										},
+										"key": "pounce",
+										"children": [
+											{
+												"key": "animations",
+												"is_minified": true,
+												"children": [
+													"look_at_target",
+													"pounce",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												]
+											},
+											{
+												"open": {
+													"animations": [
+														"look_at_target",
+														"pounce",
+														{
+															"walk": "query.modified_move_speed"
+														}
+													],
+													"transitions": [
+														{
+															"default": "query.is_on_ground"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.is_on_ground"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.is_on_ground"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"crouch": {
+												"animations": [
+													"look_at_target",
+													"crouch",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.4,
+												"transitions": [
+													{
+														"default": "!query.is_stalking && !query.is_interested"
+													},
+													{
+														"wiggle": "query.is_interested"
+													}
+												]
+											},
+											"default": {
+												"animations": [
+													"look_at_target",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.1,
+												"transitions": [
+													{
+														"crouch": "query.is_stalking"
+													},
+													{
+														"sleep": "query.is_sleeping"
+													},
+													{
+														"stuck": "query.is_stunned"
+													},
+													{
+														"sit": "query.is_sitting"
+													},
+													{
+														"flies": "!query.is_on_ground"
+													}
+												]
+											},
+											"pounce": {
+												"animations": [
+													"look_at_target",
+													"pounce",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"transitions": [
+													{
+														"default": "query.is_on_ground"
+													}
+												]
+											},
+											"sit": {
+												"animations": [
+													"sit"
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_sitting"
+													},
+													{
+														"flies": "!query.is_on_ground"
+													}
+												]
+											},
+											"sleep": {
+												"animations": [
+													"sleep"
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_sleeping"
+													}
+												]
+											},
+											"stuck": {
+												"animations": [
+													"stuck",
+													{
+														"walk": "math.cos(query.life_time * 20.0 * 53.7)"
+													}
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_stunned"
+													}
+												]
+											},
+											"wiggle": {
+												"animations": [
+													"look_at_target",
+													"wiggle",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "query.is_on_ground && !query.is_interested && !query.is_stalking"
+													},
+													{
+														"crouch": "query.is_on_ground && !query.is_interested && query.is_stalking"
+													},
+													{
+														"pounce": "!query.is_on_ground"
+													}
+												]
+											},
+											"flies": {
+												"animations": [
+													"setup",
+													"flying"
+												],
+												"blend_transition": 0.3,
+												"transitions": [
+													{
+														"default": "query.is_on_ground"
+													}
+												]
+											}
+										},
+										"key": "sit",
+										"children": [
+											{
+												"key": "animations",
+												"is_minified": true,
+												"children": [
+													"sit"
+												]
+											},
+											{
+												"data": "0.2",
+												"key": "blend_transition"
+											},
+											{
+												"open": {
+													"animations": [
+														"sit"
+													],
+													"blend_transition": 0.2,
+													"transitions": [
+														{
+															"default": "!query.is_sitting"
+														},
+														{
+															"flies": "!query.is_on_ground"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "!query.is_sitting"
+															},
+															{
+																"flies": "!query.is_on_ground"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "!query.is_sitting"
+														}
+													},
+													{
+														"open": [
+															{
+																"default": "!query.is_sitting"
+															},
+															{
+																"flies": "!query.is_on_ground"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"flies": "!query.is_on_ground"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"crouch": {
+												"animations": [
+													"look_at_target",
+													"crouch",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.4,
+												"transitions": [
+													{
+														"default": "!query.is_stalking && !query.is_interested"
+													},
+													{
+														"wiggle": "query.is_interested"
+													}
+												]
+											},
+											"default": {
+												"animations": [
+													"look_at_target",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.1,
+												"transitions": [
+													{
+														"crouch": "query.is_stalking"
+													},
+													{
+														"sleep": "query.is_sleeping"
+													},
+													{
+														"stuck": "query.is_stunned"
+													},
+													{
+														"sit": "query.is_sitting"
+													},
+													{
+														"flies": "!query.is_on_ground"
+													}
+												]
+											},
+											"pounce": {
+												"animations": [
+													"look_at_target",
+													"pounce",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"transitions": [
+													{
+														"default": "query.is_on_ground"
+													}
+												]
+											},
+											"sit": {
+												"animations": [
+													"sit"
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_sitting"
+													},
+													{
+														"flies": "!query.is_on_ground"
+													}
+												]
+											},
+											"sleep": {
+												"animations": [
+													"sleep"
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_sleeping"
+													}
+												]
+											},
+											"stuck": {
+												"animations": [
+													"stuck",
+													{
+														"walk": "math.cos(query.life_time * 20.0 * 53.7)"
+													}
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_stunned"
+													}
+												]
+											},
+											"wiggle": {
+												"animations": [
+													"look_at_target",
+													"wiggle",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "query.is_on_ground && !query.is_interested && !query.is_stalking"
+													},
+													{
+														"crouch": "query.is_on_ground && !query.is_interested && query.is_stalking"
+													},
+													{
+														"pounce": "!query.is_on_ground"
+													}
+												]
+											},
+											"flies": {
+												"animations": [
+													"setup",
+													"flying"
+												],
+												"blend_transition": 0.3,
+												"transitions": [
+													{
+														"default": "query.is_on_ground"
+													}
+												]
+											}
+										},
+										"key": "sleep",
+										"children": [
+											{
+												"open": {
+													"animations": [
+														"sleep"
+													],
+													"blend_transition": 0.2,
+													"transitions": [
+														{
+															"default": "!query.is_sleeping"
+														}
+													]
+												},
+												"key": "animations",
+												"is_minified": true,
+												"children": [
+													"sleep"
+												]
+											},
+											{
+												"data": "0.2",
+												"key": "blend_transition"
+											},
+											{
+												"open": {
+													"animations": [
+														"sleep"
+													],
+													"blend_transition": 0.2,
+													"transitions": [
+														{
+															"default": "!query.is_sleeping"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "!query.is_sleeping"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "!query.is_sleeping"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"crouch": {
+												"animations": [
+													"look_at_target",
+													"crouch",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.4,
+												"transitions": [
+													{
+														"default": "!query.is_stalking && !query.is_interested"
+													},
+													{
+														"wiggle": "query.is_interested"
+													}
+												]
+											},
+											"default": {
+												"animations": [
+													"look_at_target",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.1,
+												"transitions": [
+													{
+														"crouch": "query.is_stalking"
+													},
+													{
+														"sleep": "query.is_sleeping"
+													},
+													{
+														"stuck": "query.is_stunned"
+													},
+													{
+														"sit": "query.is_sitting"
+													},
+													{
+														"flies": "!query.is_on_ground"
+													}
+												]
+											},
+											"pounce": {
+												"animations": [
+													"look_at_target",
+													"pounce",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"transitions": [
+													{
+														"default": "query.is_on_ground"
+													}
+												]
+											},
+											"sit": {
+												"animations": [
+													"sit"
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_sitting"
+													},
+													{
+														"flies": "!query.is_on_ground"
+													}
+												]
+											},
+											"sleep": {
+												"animations": [
+													"sleep"
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_sleeping"
+													}
+												]
+											},
+											"stuck": {
+												"animations": [
+													"stuck",
+													{
+														"walk": "math.cos(query.life_time * 20.0 * 53.7)"
+													}
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_stunned"
+													}
+												]
+											},
+											"wiggle": {
+												"animations": [
+													"look_at_target",
+													"wiggle",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "query.is_on_ground && !query.is_interested && !query.is_stalking"
+													},
+													{
+														"crouch": "query.is_on_ground && !query.is_interested && query.is_stalking"
+													},
+													{
+														"pounce": "!query.is_on_ground"
+													}
+												]
+											},
+											"flies": {
+												"animations": [
+													"setup",
+													"flying"
+												],
+												"blend_transition": 0.3,
+												"transitions": [
+													{
+														"default": "query.is_on_ground"
+													}
+												]
+											}
+										},
+										"key": "stuck",
+										"children": [
+											{
+												"key": "animations",
+												"is_minified": true,
+												"children": [
+													"stuck",
+													{
+														"walk": "math.cos(query.life_time * 20.0 * 53.7)"
+													}
+												]
+											},
+											{
+												"data": "0.2",
+												"key": "blend_transition"
+											},
+											{
+												"open": {
+													"animations": [
+														"stuck",
+														{
+															"walk": "math.cos(query.life_time * 20.0 * 53.7)"
+														}
+													],
+													"blend_transition": 0.2,
+													"transitions": [
+														{
+															"default": "!query.is_stunned"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "!query.is_stunned"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "!query.is_stunned"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"crouch": {
+												"animations": [
+													"look_at_target",
+													"crouch",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.4,
+												"transitions": [
+													{
+														"default": "!query.is_stalking && !query.is_interested"
+													},
+													{
+														"wiggle": "query.is_interested"
+													}
+												]
+											},
+											"default": {
+												"animations": [
+													"look_at_target",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.1,
+												"transitions": [
+													{
+														"crouch": "query.is_stalking"
+													},
+													{
+														"sleep": "query.is_sleeping"
+													},
+													{
+														"stuck": "query.is_stunned"
+													},
+													{
+														"sit": "query.is_sitting"
+													},
+													{
+														"flies": "!query.is_on_ground"
+													}
+												]
+											},
+											"pounce": {
+												"animations": [
+													"look_at_target",
+													"pounce",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"transitions": [
+													{
+														"default": "query.is_on_ground"
+													}
+												]
+											},
+											"sit": {
+												"animations": [
+													"sit"
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_sitting"
+													},
+													{
+														"flies": "!query.is_on_ground"
+													}
+												]
+											},
+											"sleep": {
+												"animations": [
+													"sleep"
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_sleeping"
+													}
+												]
+											},
+											"stuck": {
+												"animations": [
+													"stuck",
+													{
+														"walk": "math.cos(query.life_time * 20.0 * 53.7)"
+													}
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_stunned"
+													}
+												]
+											},
+											"wiggle": {
+												"animations": [
+													"look_at_target",
+													"wiggle",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "query.is_on_ground && !query.is_interested && !query.is_stalking"
+													},
+													{
+														"crouch": "query.is_on_ground && !query.is_interested && query.is_stalking"
+													},
+													{
+														"pounce": "!query.is_on_ground"
+													}
+												]
+											},
+											"flies": {
+												"animations": [
+													"setup",
+													"flying"
+												],
+												"blend_transition": 0.3,
+												"transitions": [
+													{
+														"default": "query.is_on_ground"
+													}
+												]
+											}
+										},
+										"key": "wiggle",
+										"children": [
+											{
+												"open": {
+													"animations": [
+														"look_at_target",
+														"wiggle",
+														{
+															"walk": "query.modified_move_speed"
+														}
+													],
+													"blend_transition": 0.2,
+													"transitions": [
+														{
+															"default": "query.is_on_ground && !query.is_interested && !query.is_stalking"
+														},
+														{
+															"crouch": "query.is_on_ground && !query.is_interested && query.is_stalking"
+														},
+														{
+															"pounce": "!query.is_on_ground"
+														}
+													]
+												},
+												"key": "animations",
+												"is_minified": true,
+												"children": [
+													"look_at_target",
+													"wiggle",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												]
+											},
+											{
+												"data": "0.2",
+												"key": "blend_transition"
+											},
+											{
+												"open": {
+													"animations": [
+														"look_at_target",
+														"wiggle",
+														{
+															"walk": "query.modified_move_speed"
+														}
+													],
+													"blend_transition": 0.2,
+													"transitions": [
+														{
+															"default": "query.is_on_ground && !query.is_interested && !query.is_stalking"
+														},
+														{
+															"crouch": "query.is_on_ground && !query.is_interested && query.is_stalking"
+														},
+														{
+															"pounce": "!query.is_on_ground"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.is_on_ground && !query.is_interested && !query.is_stalking"
+															},
+															{
+																"crouch": "query.is_on_ground && !query.is_interested && query.is_stalking"
+															},
+															{
+																"pounce": "!query.is_on_ground"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.is_on_ground && !query.is_interested && !query.is_stalking"
+														}
+													},
+													{
+														"open": [
+															{
+																"default": "query.is_on_ground && !query.is_interested && !query.is_stalking"
+															},
+															{
+																"crouch": "query.is_on_ground && !query.is_interested && query.is_stalking"
+															},
+															{
+																"pounce": "!query.is_on_ground"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"crouch": "query.is_on_ground && !query.is_interested && query.is_stalking"
+														}
+													},
+													{
+														"open": [
+															{
+																"default": "query.is_on_ground && !query.is_interested && !query.is_stalking"
+															},
+															{
+																"crouch": "query.is_on_ground && !query.is_interested && query.is_stalking"
+															},
+															{
+																"pounce": "!query.is_on_ground"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"pounce": "!query.is_on_ground"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"open": {
+											"crouch": {
+												"animations": [
+													"look_at_target",
+													"crouch",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.4,
+												"transitions": [
+													{
+														"default": "!query.is_stalking && !query.is_interested"
+													},
+													{
+														"wiggle": "query.is_interested"
+													}
+												]
+											},
+											"default": {
+												"animations": [
+													"look_at_target",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.1,
+												"transitions": [
+													{
+														"crouch": "query.is_stalking"
+													},
+													{
+														"sleep": "query.is_sleeping"
+													},
+													{
+														"stuck": "query.is_stunned"
+													},
+													{
+														"sit": "query.is_sitting"
+													},
+													{
+														"flies": "!query.is_on_ground"
+													}
+												]
+											},
+											"pounce": {
+												"animations": [
+													"look_at_target",
+													"pounce",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"transitions": [
+													{
+														"default": "query.is_on_ground"
+													}
+												]
+											},
+											"sit": {
+												"animations": [
+													"sit"
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_sitting"
+													},
+													{
+														"flies": "!query.is_on_ground"
+													}
+												]
+											},
+											"sleep": {
+												"animations": [
+													"sleep"
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_sleeping"
+													}
+												]
+											},
+											"stuck": {
+												"animations": [
+													"stuck",
+													{
+														"walk": "math.cos(query.life_time * 20.0 * 53.7)"
+													}
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "!query.is_stunned"
+													}
+												]
+											},
+											"wiggle": {
+												"animations": [
+													"look_at_target",
+													"wiggle",
+													{
+														"walk": "query.modified_move_speed"
+													}
+												],
+												"blend_transition": 0.2,
+												"transitions": [
+													{
+														"default": "query.is_on_ground && !query.is_interested && !query.is_stalking"
+													},
+													{
+														"crouch": "query.is_on_ground && !query.is_interested && query.is_stalking"
+													},
+													{
+														"pounce": "!query.is_on_ground"
+													}
+												]
+											},
+											"flies": {
+												"animations": [
+													"setup",
+													"flying"
+												],
+												"blend_transition": 0.3,
+												"transitions": [
+													{
+														"default": "query.is_on_ground"
+													}
+												]
+											}
+										},
+										"key": "flies",
+										"children": [
+											{
+												"open": {
+													"animations": [
+														"setup",
+														"flying"
+													],
+													"blend_transition": 0.3,
+													"transitions": [
+														{
+															"default": "query.is_on_ground"
+														}
+													]
+												},
+												"key": "animations",
+												"is_minified": true,
+												"children": [
+													"setup",
+													"flying"
+												]
+											},
+											{
+												"data": "0.3",
+												"key": "blend_transition"
+											},
+											{
+												"open": {
+													"animations": [
+														"setup",
+														"flying"
+													],
+													"blend_transition": 0.3,
+													"transitions": [
+														{
+															"default": "query.is_on_ground"
+														}
+													]
+												},
+												"key": "transitions",
+												"children": [
+													{
+														"open": [
+															{
+																"default": "query.is_on_ground"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"default": "query.is_on_ground"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

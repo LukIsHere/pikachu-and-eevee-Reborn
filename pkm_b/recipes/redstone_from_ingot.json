@@ -1,0 +1,25 @@
+//bridge-file-version: #1
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "amalgama:redstone_from_ingot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "amalgama:redstone_ingot"
+			}
+		},
+		"result": {
+			"data": 0,
+			"item": "minecraft:redstone",
+			"count": 6
+		}
+	}
+}

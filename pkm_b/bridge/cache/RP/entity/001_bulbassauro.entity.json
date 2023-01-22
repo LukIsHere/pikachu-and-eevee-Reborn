@@ -1,0 +1,307 @@
+{
+	"file_path": "C:\\Users\\eduar\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Pocket Monsters R\\entity\\001_bulbassauro.entity.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "16ae0a26_cbd9_4a54_abff_c77e1c40526c",
+	"file_version": 21,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "pkm:bulbassauro",
+							"materials": {
+								"default": "fox"
+							},
+							"textures": {
+								"red": "textures/entity/bulbassauro/bulbassauro",
+								"arctic": "textures/entity/bulbassauro/bulbassauro_shiny"
+							},
+							"geometry": {
+								"default": "geometry.bulbassauro"
+							},
+							"animations": {
+								"walk": "animation.bulba.walk",
+								"look_at_target": "animation.common.look_at_target",
+								"baby_transform": "animation.bulba.baby_transform",
+								"crouch": "animation.bulba.crouch",
+								"sleep": "animation.bulba.sleep",
+								"setup": "animation.bulba.setup",
+								"sit": "animation.bulba.sit",
+								"wiggle": "animation.bulba.wiggle",
+								"stuck": "animation.bulba.stuck",
+								"pounce": "animation.bulba.pounce",
+								"move": "controller.animation.fox.move"
+							},
+							"scripts": {
+								"animate": [
+									"setup",
+									{
+										"baby_transform": "query.is_baby"
+									},
+									"move"
+								]
+							},
+							"render_controllers": [
+								"controller.render.fox"
+							],
+							"spawn_egg": {
+								"texture": "pkb"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "pkm:bulbassauro",
+								"materials": {
+									"default": "fox"
+								},
+								"textures": {
+									"red": "textures/entity/bulbassauro/bulbassauro",
+									"arctic": "textures/entity/bulbassauro/bulbassauro_shiny"
+								},
+								"geometry": {
+									"default": "geometry.bulbassauro"
+								},
+								"animations": {
+									"walk": "animation.bulba.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"baby_transform": "animation.bulba.baby_transform",
+									"crouch": "animation.bulba.crouch",
+									"sleep": "animation.bulba.sleep",
+									"setup": "animation.bulba.setup",
+									"sit": "animation.bulba.sit",
+									"wiggle": "animation.bulba.wiggle",
+									"stuck": "animation.bulba.stuck",
+									"pounce": "animation.bulba.pounce",
+									"move": "controller.animation.fox.move"
+								},
+								"scripts": {
+									"animate": [
+										"setup",
+										{
+											"baby_transform": "query.is_baby"
+										},
+										"move"
+									]
+								},
+								"render_controllers": [
+									"controller.render.fox"
+								],
+								"spawn_egg": {
+									"texture": "pkb"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "pkm:bulbassauro",
+								"key": "identifier"
+							},
+							{
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "fox"
+								}
+							},
+							{
+								"open": {
+									"identifier": "pkm:bulbassauro",
+									"materials": {
+										"default": "fox"
+									},
+									"textures": {
+										"red": "textures/entity/bulbassauro/bulbassauro",
+										"arctic": "textures/entity/bulbassauro/bulbassauro_shiny"
+									},
+									"geometry": {
+										"default": "geometry.bulbassauro"
+									},
+									"animations": {
+										"walk": "animation.bulba.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.bulba.baby_transform",
+										"crouch": "animation.bulba.crouch",
+										"sleep": "animation.bulba.sleep",
+										"setup": "animation.bulba.setup",
+										"sit": "animation.bulba.sit",
+										"wiggle": "animation.bulba.wiggle",
+										"stuck": "animation.bulba.stuck",
+										"pounce": "animation.bulba.pounce",
+										"move": "controller.animation.fox.move"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.fox"
+									],
+									"spawn_egg": {
+										"texture": "pkb"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"red": "textures/entity/bulbassauro/bulbassauro",
+									"arctic": "textures/entity/bulbassauro/bulbassauro_shiny"
+								}
+							},
+							{
+								"open": {
+									"identifier": "pkm:bulbassauro",
+									"materials": {
+										"default": "fox"
+									},
+									"textures": {
+										"red": "textures/entity/bulbassauro/bulbassauro",
+										"arctic": "textures/entity/bulbassauro/bulbassauro_shiny"
+									},
+									"geometry": {
+										"default": "geometry.bulbassauro"
+									},
+									"animations": {
+										"walk": "animation.bulba.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.bulba.baby_transform",
+										"crouch": "animation.bulba.crouch",
+										"sleep": "animation.bulba.sleep",
+										"setup": "animation.bulba.setup",
+										"sit": "animation.bulba.sit",
+										"wiggle": "animation.bulba.wiggle",
+										"stuck": "animation.bulba.stuck",
+										"pounce": "animation.bulba.pounce",
+										"move": "controller.animation.fox.move"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.fox"
+									],
+									"spawn_egg": {
+										"texture": "pkb"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.bulbassauro"
+								}
+							},
+							{
+								"open": {
+									"identifier": "pkm:bulbassauro",
+									"materials": {
+										"default": "fox"
+									},
+									"textures": {
+										"red": "textures/entity/bulbassauro/bulbassauro",
+										"arctic": "textures/entity/bulbassauro/bulbassauro_shiny"
+									},
+									"geometry": {
+										"default": "geometry.bulbassauro"
+									},
+									"animations": {
+										"walk": "animation.bulba.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.bulba.baby_transform",
+										"crouch": "animation.bulba.crouch",
+										"sleep": "animation.bulba.sleep",
+										"setup": "animation.bulba.setup",
+										"sit": "animation.bulba.sit",
+										"wiggle": "animation.bulba.wiggle",
+										"stuck": "animation.bulba.stuck",
+										"pounce": "animation.bulba.pounce",
+										"move": "controller.animation.fox.move"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.fox"
+									],
+									"spawn_egg": {
+										"texture": "pkb"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"walk": "animation.bulba.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"baby_transform": "animation.bulba.baby_transform",
+									"crouch": "animation.bulba.crouch",
+									"sleep": "animation.bulba.sleep",
+									"setup": "animation.bulba.setup",
+									"sit": "animation.bulba.sit",
+									"wiggle": "animation.bulba.wiggle",
+									"stuck": "animation.bulba.stuck",
+									"pounce": "animation.bulba.pounce",
+									"move": "controller.animation.fox.move"
+								}
+							},
+							{
+								"key": "scripts",
+								"is_minified": true,
+								"children": {
+									"animate": [
+										"setup",
+										{
+											"baby_transform": "query.is_baby"
+										},
+										"move"
+									]
+								}
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"array": [
+									"controller.render.fox"
+								]
+							},
+							{
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "pkb"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

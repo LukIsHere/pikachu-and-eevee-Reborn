@@ -1,0 +1,47 @@
+//bridge-file-version: #15
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pkm:vaporeon",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"red": "textures/entity/eevee/vaporeon",
+				"arctic": "textures/entity/eevee/vaporeon_shiny"
+			},
+			"geometry": {
+				"default": "geometry.vaporeon"
+			},
+			"animations": {
+				"walk": "animation.vaporeon.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.vaporeon.baby_transform",
+				"crouch": "animation.vaporeon.crouch",
+				"sleep": "animation.vaporeon.sleep",
+				"setup": "animation.vaporeon.setup",
+				"sit": "animation.vaporeon.sit",
+				"wiggle": "animation.vaporeon.wiggle",
+				"stuck": "animation.vaporeon.stuck",
+				"pounce": "animation.vaporeon.pounce",
+				"move": "controller.animation.fox.move"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"move"
+				]
+			},
+			"render_controllers": [
+				"controller.render.fox"
+			],
+			"spawn_egg": {
+				"texture": "pkb"
+			}
+		}
+	}
+}

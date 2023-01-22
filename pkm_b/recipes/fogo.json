@@ -1,0 +1,30 @@
+//bridge-file-version: #5
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "pkm:fogo"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"QQQ",
+			"QWQ",
+			"QQQ"
+		],
+		"key": {
+			"Q": {
+				"item": "minecraft:blaze_powder"
+			},
+			"W": {
+				"item": "minecraft:experience_bottle"
+			}
+		},
+		"result": [
+			{
+				"item": "pkm:fire_stone"
+			}
+		]
+	}
+}

@@ -1,0 +1,14 @@
+//bridge-file-version: #7
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "pkm:fire_stone",
+			"category": "Items"
+		},
+		"components": {
+			"minecraft:icon": "fire_stone",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

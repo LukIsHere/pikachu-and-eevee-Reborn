@@ -1,0 +1,47 @@
+//bridge-file-version: #18
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pkm:pikachu",
+			"materials": {
+				"default": "fox"
+			},
+			"textures": {
+				"red": "textures/entity/pikachu/pikachu",
+				"arctic": "textures/entity/pikachu/pikachu_shiny"
+			},
+			"geometry": {
+				"default": "geometry.pikachu"
+			},
+			"animations": {
+				"walk": "animation.pika.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.pika.baby_transform",
+				"crouch": "animation.pika.crouch",
+				"sleep": "animation.pika.sleep",
+				"setup": "animation.pika.setup",
+				"sit": "animation.pika.sit",
+				"wiggle": "animation.pika.wiggle",
+				"stuck": "animation.pika.stuck",
+				"pounce": "animation.pika.pounce",
+				"move": "controller.animation.fox.move"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"move"
+				]
+			},
+			"render_controllers": [
+				"controller.render.fox"
+			],
+			"spawn_egg": {
+				"texture": "pkb"
+			}
+		}
+	}
+}

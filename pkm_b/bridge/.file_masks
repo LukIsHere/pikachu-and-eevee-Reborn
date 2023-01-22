@@ -1,0 +1,353 @@
+{
+	"RP/sounds.json": {
+		"data": {}
+	},
+	"RP/textures/item_texture.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"e823dbe1_0170_4c0b_8964_4c88ab445fe5": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"7d2e2781_3163_4d08_850f_a544347462af": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"555f1ccd_67eb_43ae_96a5_37b5c1cf0f2d": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"78660bb7_d5e8_4783_bd85_16604eabde44": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"6f7c9990_07fb_4b1b_b427_c681f5da5c08": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f5beb156_6d97_4390_a0e8_b5f9db35e0da": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"9fe51eb6_c4c7_4e2b_b0f0_6168ae4abf3e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"228d5476_6202_4d17_ad54_84c54f8de75a": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/pokebola.json": {
+		"data": {}
+	},
+	"RP/items/pokebola.json": {
+		"data": {}
+	},
+	"BP/entities/eeveeV2.json/eeveetest.json": {
+		"data": {}
+	},
+	"BP/recipes/pokebola.json": {
+		"data": {}
+	},
+	"BP/items/redstone_ingot.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"BP/recipes/redstone_ingot.json": {
+		"data": {}
+	},
+	"RP/items/redstone_ingot.json": {
+		"data": {}
+	},
+	"BP/recipes/redstone_from_ingot.json": {
+		"data": {}
+	},
+	"BP/items/thunder_stone.json": {
+		"data": {}
+	},
+	"RP/items/thunder_stone.json": {
+		"data": {}
+	},
+	"BP/items/shiny_charm.json": {
+		"data": {}
+	},
+	"RP/items/shiny_charm.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/shiny_evo.json": {
+		"data": {}
+	},
+	"BP/items/fire_stone.json": {
+		"data": {}
+	},
+	"BP/items/water_stone.json": {
+		"data": {}
+	},
+	"RP/items/water_stone.json": {
+		"data": {}
+	},
+	"RP/items/fire_stone.json": {
+		"data": {}
+	},
+	"BP/recipes/brilhante.json": {
+		"data": {}
+	},
+	"BP/recipes/aqua.json": {
+		"data": {}
+	},
+	"BP/recipes/fogo.json": {
+		"data": {}
+	},
+	"BP/items/rare_candy.json": {
+		"data": {}
+	},
+	"RP/items/rare_candy.json": {
+		"data": {}
+	},
+	"RP/render_controllers/umbreon_rings.json": {
+		"data": {}
+	},
+	"BP/recipes/doce.json": {
+		"data": {}
+	},
+	"BP/manifest.json": {
+		"data": {}
+	},
+	"RP/manifest.json": {
+		"data": {}
+	},
+	"RP/texts/languages.json": {
+		"data": {}
+	},
+	"BP/entities/025_pikachu.json/pikachuV2.json": {
+		"data": {}
+	},
+	"BP/entities/026_raichu.json/raichu.json": {
+		"data": {}
+	},
+	"BP/entities/035_clefairy.json/clefairy.json": {
+		"data": {}
+	},
+	"BP/entities/133_eevee.json/eeveeV2.json": {
+		"data": {}
+	},
+	"BP/entities/134_vaporeon.json/vaporeon.json": {
+		"data": {}
+	},
+	"BP/entities/135_jolteon.json/jolteon.json": {
+		"data": {}
+	},
+	"BP/entities/136_flareon.json/flareon.json": {
+		"data": {}
+	},
+	"BP/entities/196_espeon.json/espeon.json": {
+		"data": {}
+	},
+	"BP/entities/197_umbreon.json/umbreon.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/035_ckefairy.json/ckefairy.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/133_eevee.json/eevee.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/025_pikachu.json/pikachu.json": {
+		"data": {}
+	},
+	"RP/entity/035_clefairy.entity.json/clefairy.entity.json": {
+		"data": {}
+	},
+	"RP/entity/133_eevee.entity.json/eevee.entity.json": {
+		"data": {}
+	},
+	"RP/entity/196_espeon.entity.json/espeon.entity.json": {
+		"data": {}
+	},
+	"RP/entity/137_flareon.entity.json/flareon.entity.json": {
+		"data": {}
+	},
+	"RP/entity/135_jolteon.entity.json/jolteon.entity.json": {
+		"data": {}
+	},
+	"RP/entity/025_pikachu.entity.json/pikachu.entity.json": {
+		"data": {}
+	},
+	"RP/entity/026_raichu.entity.json/raichu.entity.json": {
+		"data": {}
+	},
+	"RP/entity/197_umbreon.entity.json/umbreon.entity.json": {
+		"data": {}
+	},
+	"RP/entity/134_vaporeon.entity.json/vaporeon.entity.json": {
+		"data": {}
+	},
+	"BP/texts/languages.json": {
+		"data": {}
+	},
+	"BP/entities/036_clefable.json": {
+		"data": {}
+	},
+	"RP/entity/036_clefable.entity.json": {
+		"data": {}
+	},
+	"BP/entities/035_clefairy.json": {
+		"data": {}
+	},
+	"BP/items/moon_stone.json": {
+		"data": {}
+	},
+	"RP/items/moon_stone.json": {
+		"data": {}
+	},
+	"BP/entities/026_raichu_alola.json": {
+		"data": {}
+	},
+	"RP/entity/026_raichu_alola.entity.json": {
+		"data": {}
+	},
+	"RP/animations/026_raichu_alola.animation.json": {
+		"data": {}
+	},
+	"BP/entities/196_espeon.json": {
+		"data": {}
+	},
+	"BP/entities/136_flareon.json": {
+		"data": {}
+	},
+	"RP/entity/attack_eletric_ball.json/unnamed.json": {
+		"data": {}
+	},
+	"BP/entities/135_jolteon.json": {
+		"data": {}
+	},
+	"BP/recipes/lua.json": {
+		"data": {}
+	},
+	"BP/entities/025_pikachu.json": {
+		"data": {}
+	},
+	"BP/recipes/raio.json": {
+		"data": {}
+	},
+	"BP/entities/001_bulbassauro.json": {
+		"data": {}
+	},
+	"RP/entity/001_bulbassauro.entity.json": {
+		"data": {}
+	},
+	"RP/entity/136_flareon.entity.json": {
+		"data": {}
+	},
+	"RP/entity/135_jolteon.entity.json": {
+		"data": {}
+	},
+	"RP/entity/197_umbreon.entity.json": {
+		"data": {}
+	},
+	"RP/entity/196_espeon.entity.json": {
+		"data": {}
+	},
+	"BP/entities/007_squirtle.json": {
+		"data": {}
+	},
+	"RP/entity/007_squirtle.entity.json": {
+		"data": {}
+	},
+	"BP/entities/004_charmander.json": {
+		"data": {}
+	},
+	"RP/entity/004_charmander.entity.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/001_bulbassauro.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/004_charmander.json": {
+		"data": {}
+	},
+	"BP/spawn_rules/007_squirtle.json": {
+		"data": {}
+	},
+	"BP/entities/005_charmeleon.json": {
+		"data": {}
+	},
+	"BP/entities/006_charizard.json": {
+		"data": {}
+	},
+	"RP/entity/005_charmeleon.entity.json": {
+		"data": {}
+	},
+	"RP/entity/006_charizard.entity.json": {
+		"data": {}
+	},
+	"BP/entities/026_raichu_kanto.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/pkm_fly.json": {
+		"data": {}
+	},
+	"RP/animation_controllers/pkm_flies.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/remove_fly_effect.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/charizard_fly.json": {
+		"data": {}
+	}
+}

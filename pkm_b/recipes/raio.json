@@ -1,0 +1,30 @@
+//bridge-file-version: #6
+{
+	"format_version": 1.12,
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "pkm:raio"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"QQQ",
+			"QWQ",
+			"QQQ"
+		],
+		"key": {
+			"Q": {
+				"item": "minecraft:emerald"
+			},
+			"W": {
+				"item": "minecraft:experience_bottle"
+			}
+		},
+		"result": [
+			{
+				"item": "pkm:thunder_stone"
+			}
+		]
+	}
+}

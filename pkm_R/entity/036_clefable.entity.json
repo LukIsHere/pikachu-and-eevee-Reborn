@@ -1,0 +1,47 @@
+//bridge-file-version: #22
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pkm:clefable",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"red": "textures/entity/clefairy/clefable",
+				"arctic": "textures/entity/clefairy/clefable_shiny"
+			},
+			"geometry": {
+				"default": "geometry.clefable"
+			},
+			"animations": {
+				"walk": "animation.clefairy.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.clefairy.baby_transform",
+				"crouch": "animation.clefairy.crouch",
+				"sleep": "animation.pika.sleep",
+				"setup": "animation.clefairy.setup",
+				"sit": "animation.clefable.sit",
+				"wiggle": "animation.clefairy.wiggle",
+				"stuck": "animation.clefairy.stuck",
+				"pounce": "animation.clefairy.pounce",
+				"move": "controller.animation.fox.move"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"move"
+				]
+			},
+			"render_controllers": [
+				"controller.render.fox"
+			],
+			"spawn_egg": {
+				"texture": "pkb"
+			}
+		}
+	}
+}

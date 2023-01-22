@@ -1,0 +1,15 @@
+{
+	"file_path": "C:\\Users\\eduar\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\Pocket Monsters B\\texts\\languages.json",
+	"file_type": "lang_def",
+	"format_version": 1,
+	"file_uuid": "916f3581_48c0_46c3_b874_cf57e7f4d4cd",
+	"file_version": 0,
+	"cache_content": {
+		"is_minified": true,
+		"array": [
+			"en_US",
+			"pt_BR",
+			"pt_PT"
+		]
+	}
+}

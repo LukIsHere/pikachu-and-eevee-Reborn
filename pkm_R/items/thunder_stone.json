@@ -1,0 +1,14 @@
+//bridge-file-version: #5
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "pkm:thunder_stone",
+			"category": "Items"
+		},
+		"components": {
+			"minecraft:icon": "thunder_stone",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

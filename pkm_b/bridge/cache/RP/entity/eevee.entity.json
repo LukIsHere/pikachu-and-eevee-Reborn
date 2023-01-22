@@ -1,0 +1,401 @@
+{
+	"file_path": "C:\\Users\\eduar\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\Pocket Monsters R\\entity\\eevee.entity.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "17e2b95c_fc4a_4030_8950_42fe9a04ef03",
+	"file_version": 9,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "pkm:eevee",
+							"materials": {
+								"default": "skeleton"
+							},
+							"textures": {
+								"red": "textures/entity/eevee/eevee",
+								"arctic": "textures/entity/eevee/eevee_shiny"
+							},
+							"geometry": {
+								"default": "geometry.eevee"
+							},
+							"animations": {
+								"walk": "animation.pika.walk",
+								"look_at_target": "animation.common.look_at_target",
+								"baby_transform": "animation.eevee.baby_transform",
+								"crouch": "animation.eevee.crouch",
+								"sleep": "animation.eevee.sleep",
+								"setup": "animation.eevee.setup",
+								"sit": "animation.eevee.sit",
+								"wiggle": "animation.eevee.wiggle",
+								"stuck": "animation.eevee.stuck",
+								"pounce": "animation.eevee.pounce",
+								"move": "controller.animation.fox.move"
+							},
+							"scripts": {
+								"animate": [
+									"setup",
+									{
+										"baby_transform": "query.is_baby"
+									},
+									"move"
+								]
+							},
+							"render_controllers": [
+								"controller.render.fox"
+							],
+							"spawn_egg": {
+								"texture": "pkb"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "pkm:eevee",
+								"materials": {
+									"default": "skeleton"
+								},
+								"textures": {
+									"red": "textures/entity/eevee/eevee",
+									"arctic": "textures/entity/eevee/eevee_shiny"
+								},
+								"geometry": {
+									"default": "geometry.eevee"
+								},
+								"animations": {
+									"walk": "animation.pika.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"baby_transform": "animation.eevee.baby_transform",
+									"crouch": "animation.eevee.crouch",
+									"sleep": "animation.eevee.sleep",
+									"setup": "animation.eevee.setup",
+									"sit": "animation.eevee.sit",
+									"wiggle": "animation.eevee.wiggle",
+									"stuck": "animation.eevee.stuck",
+									"pounce": "animation.eevee.pounce",
+									"move": "controller.animation.fox.move"
+								},
+								"scripts": {
+									"animate": [
+										"setup",
+										{
+											"baby_transform": "query.is_baby"
+										},
+										"move"
+									]
+								},
+								"render_controllers": [
+									"controller.render.fox"
+								],
+								"spawn_egg": {
+									"texture": "pkb"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "pkm:eevee",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "pkm:eevee",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"red": "textures/entity/eevee/eevee",
+										"arctic": "textures/entity/eevee/eevee_shiny"
+									},
+									"geometry": {
+										"default": "geometry.eevee"
+									},
+									"animations": {
+										"walk": "animation.pika.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.eevee.baby_transform",
+										"crouch": "animation.eevee.crouch",
+										"sleep": "animation.eevee.sleep",
+										"setup": "animation.eevee.setup",
+										"sit": "animation.eevee.sit",
+										"wiggle": "animation.eevee.wiggle",
+										"stuck": "animation.eevee.stuck",
+										"pounce": "animation.eevee.pounce",
+										"move": "controller.animation.fox.move"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.fox"
+									],
+									"spawn_egg": {
+										"texture": "pkb"
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "skeleton"
+								}
+							},
+							{
+								"open": {
+									"identifier": "pkm:eevee",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"red": "textures/entity/eevee/eevee",
+										"arctic": "textures/entity/eevee/eevee_shiny"
+									},
+									"geometry": {
+										"default": "geometry.eevee"
+									},
+									"animations": {
+										"walk": "animation.pika.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.eevee.baby_transform",
+										"crouch": "animation.eevee.crouch",
+										"sleep": "animation.eevee.sleep",
+										"setup": "animation.eevee.setup",
+										"sit": "animation.eevee.sit",
+										"wiggle": "animation.eevee.wiggle",
+										"stuck": "animation.eevee.stuck",
+										"pounce": "animation.eevee.pounce",
+										"move": "controller.animation.fox.move"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.fox"
+									],
+									"spawn_egg": {
+										"texture": "pkb"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"red": "textures/entity/eevee/eevee",
+									"arctic": "textures/entity/eevee/eevee_shiny"
+								}
+							},
+							{
+								"open": {
+									"identifier": "pkm:eevee",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"red": "textures/entity/eevee/eevee",
+										"arctic": "textures/entity/eevee/eevee_shiny"
+									},
+									"geometry": {
+										"default": "geometry.eevee"
+									},
+									"animations": {
+										"walk": "animation.pika.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.eevee.baby_transform",
+										"crouch": "animation.eevee.crouch",
+										"sleep": "animation.eevee.sleep",
+										"setup": "animation.eevee.setup",
+										"sit": "animation.eevee.sit",
+										"wiggle": "animation.eevee.wiggle",
+										"stuck": "animation.eevee.stuck",
+										"pounce": "animation.eevee.pounce",
+										"move": "controller.animation.fox.move"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.fox"
+									],
+									"spawn_egg": {
+										"texture": "pkb"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.eevee"
+								}
+							},
+							{
+								"open": {
+									"identifier": "pkm:eevee",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"red": "textures/entity/eevee/eevee",
+										"arctic": "textures/entity/eevee/eevee_shiny"
+									},
+									"geometry": {
+										"default": "geometry.eevee"
+									},
+									"animations": {
+										"walk": "animation.pika.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.eevee.baby_transform",
+										"crouch": "animation.eevee.crouch",
+										"sleep": "animation.eevee.sleep",
+										"setup": "animation.eevee.setup",
+										"sit": "animation.eevee.sit",
+										"wiggle": "animation.eevee.wiggle",
+										"stuck": "animation.eevee.stuck",
+										"pounce": "animation.eevee.pounce",
+										"move": "controller.animation.fox.move"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.fox"
+									],
+									"spawn_egg": {
+										"texture": "pkb"
+									}
+								},
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"walk": "animation.pika.walk",
+									"look_at_target": "animation.common.look_at_target",
+									"baby_transform": "animation.eevee.baby_transform",
+									"crouch": "animation.eevee.crouch",
+									"sleep": "animation.eevee.sleep",
+									"setup": "animation.eevee.setup",
+									"sit": "animation.eevee.sit",
+									"wiggle": "animation.eevee.wiggle",
+									"stuck": "animation.eevee.stuck",
+									"pounce": "animation.eevee.pounce",
+									"move": "controller.animation.fox.move"
+								}
+							},
+							{
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"animate": [
+												"setup",
+												{
+													"baby_transform": "query.is_baby"
+												},
+												"move"
+											]
+										},
+										"key": "animate",
+										"is_minified": true,
+										"array": [
+											"setup",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											"move"
+										]
+									}
+								]
+							},
+							{
+								"key": "render_controllers",
+								"is_minified": true,
+								"array": [
+									"controller.render.fox"
+								]
+							},
+							{
+								"open": {
+									"identifier": "pkm:eevee",
+									"materials": {
+										"default": "skeleton"
+									},
+									"textures": {
+										"red": "textures/entity/eevee/eevee",
+										"arctic": "textures/entity/eevee/eevee_shiny"
+									},
+									"geometry": {
+										"default": "geometry.eevee"
+									},
+									"animations": {
+										"walk": "animation.pika.walk",
+										"look_at_target": "animation.common.look_at_target",
+										"baby_transform": "animation.eevee.baby_transform",
+										"crouch": "animation.eevee.crouch",
+										"sleep": "animation.eevee.sleep",
+										"setup": "animation.eevee.setup",
+										"sit": "animation.eevee.sit",
+										"wiggle": "animation.eevee.wiggle",
+										"stuck": "animation.eevee.stuck",
+										"pounce": "animation.eevee.pounce",
+										"move": "controller.animation.fox.move"
+									},
+									"scripts": {
+										"animate": [
+											"setup",
+											{
+												"baby_transform": "query.is_baby"
+											},
+											"move"
+										]
+									},
+									"render_controllers": [
+										"controller.render.fox"
+									],
+									"spawn_egg": {
+										"texture": "pkb"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "pkb"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
